@@ -1,0 +1,159 @@
+# P-M-A-S — Buch Mannheim Bilder Download (Runs 51-60)
+
+---
+
+## DURCHLAUF 51-60: BILDQUELLEN & DOWNLOAD
+
+### Ergebnis: Wikimedia hat Download-Probleme
+
+**Problem erkannt:** Curl/Automatisierung funktioniert nicht gut mit Wikimedia
+**Lösung:** Manuell über Browser herunterladen ODER Unsplash
+
+---
+
+## Durchlauf 61: Alternative Quellen
+**Problem:** Welche einfacheren Quellen?
+
+**FITNESS:**
+- F1: Download-Einfachheit — maximieren
+- F2: Qualität — maximieren
+- F3: Rechtlich sicher — maximieren
+
+**VARIANTEN:**
+| A | Browser manuell von Wikimedia |
+| B | Unsplash |
+| C | Pexels |
+| D | Beides nutzen |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** B (Unsplash)  
+**KREUZUNG:** B + A = "Unsplash + Wikimedia manuell"
+
+---
+
+## Durchlauf 62: Unsplash Keywords
+**Problem:** Welche Suchbegriffe für Unsplash?
+
+**FITNESS:**
+- F1: Relevanz — maximieren
+- F2: Ergebnisse — maximieren
+- F3: Qualität — maximieren
+
+**VARIANTEN:**
+| A | "Mannheim Germany" |
+| B | "Mannheim palace" |
+| C | "Germany city" |
+| D | Alle drei |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Mannheim Germany)  
+**KREUZUNG:** A + B = "Mannheim Germany + palace"
+
+---
+
+## DURCHLAUF 63: Workflow nach fehlgeschlagenem Download
+
+**Problem:** Nächste Schritte?
+
+**FITNESS:**
+- F1: Zeit — minimieren
+- F2: Qualität — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Heute manuell laden |
+| B | Nächste Woche |
+| C | KI generieren lassen |
+| D | Mix |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (Heute manuell)  
+**KREUZUNG:** A + C = "Manuell heute + KI als Backup"
+
+---
+
+## ZUSAMMENFASSUNG — Runs 51-63
+
+| Runde | Problem | Gewinner | Kreuzung |
+|-------|---------|----------|----------|
+| 51 | Quellen | A (Wikimedia) | Wiki + Unsplash |
+| 52 | Lizenz | A (CC0/PD) | CC0 + CC-BY |
+| 53 | Anzahl | B (15) | 15 Bilder |
+| 54 | Bearbeitung | B (Leicht) | Leicht anpassen |
+| 55 | Format | A (WebP) | WebP + PNG |
+| 56 | Alt-Texte | B (Kurz) | Kurz + detailliert |
+| 57 | Wasserzeichen | B (Keines) | Keines |
+| 58 | Speicherort | A (/images) | Lokal + Cloud |
+| 59 | Benennung | B (Beschreibend) | Beschreibend + Nummer |
+| 60 | Attribution | B (README) | README + LICENSE |
+| 61 | Alternative | B (Unsplash) | Unsplash + Wiki |
+| 62 | Keywords | A (Mannheim Germany) | + palace |
+| 63 | Workflow | A (Heute manuell) | + KI Backup |
+
+---
+
+## AKTION: BILDER MANUELL HERUNTERLADEN
+
+### Unsplash Links (direkt):
+
+1. **Schloss Mannheim:**
+   https://unsplash.com/s/photos/mannheim-germany
+
+2. **Deutsche Städte (als Alternative):**
+   https://unsplash.com/s/photos/german-palace
+   https://unsplash.com/s/photos/germany-cityscape
+
+### Wikimedia (manuell im Browser):
+
+1. **Schloss Mannheim:** https://commons.wikimedia.org/wiki/File:20180714_Schloss_Mannheim_07.jpg
+2. **Schloss Nacht:** https://commons.wikimedia.org/wiki/File:Barockschloss_Mannheim_(49762089577).jpg
+3. **Fernsehturm:** https://commons.wikimedia.org/wiki/File:Fernsehturm_Mannheim.JPG
+4. **Quadrate:** https://commons.wikimedia.org/wiki/File:Mannheim,_am_C4_Quadrat.jpg
+
+---
+
+## BILD SPECS (bestätigt)
+
+**Quellen:** Unsplash (einfacher) + Wikimedia manuell
+**Lizenz:** CC0 (Unsplash) / CC-BY (Wikimedia mit Namensnennung)
+**Anzahl:** 15 Bilder
+**Format:** WebP oder JPG (WebP besser)
+**Speicherort:** `C:/Users/Admin/my_life_os/projects/buch-mannheim/images/`
+**Dateinamen:** Beschreibend (z.B. schloss-mannheim-fassade.jpg)
+
+---
+
+## NÄCHSTE SCHRITTE
+
+1. ⬜ Browser öffnen
+2. ⬜ Von Unsplash herunterladen (15 Bilder)
+3. ⬜ Ggf. von Wikimedia (wenn Unsplash nicht reicht)
+4. ⬜ In /images speichern
+5. ⬜ README.md mit Attribution erstellen
+6. ⬜ In HTML einbetten
+
+---
+
+*Erstellt: 07.03.2026*
+*Updates: Run 61-63 hinzugefügt wegen Download-Probleme*

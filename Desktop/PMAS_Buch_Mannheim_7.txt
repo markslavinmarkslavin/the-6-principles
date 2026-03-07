@@ -1,0 +1,368 @@
+# P-M-A-S — Buch Mannheim PREMIUM Design (Runs 64-75)
+
+---
+
+## Durchlauf 64: Buch-Look & Feel
+**Problem:** Wie soll das Buch aussehen?
+
+**FITNESS:**
+- F1: Premium-Gefühl — maximieren
+- F2: Professionell — maximieren
+- F3: Lesbarkeit — maximieren
+
+**VARIANTEN:**
+| A | Minimalistisch weiß |
+| B | Dunkel edel (Premium) |
+| C | Klassisch gebunden |
+| D | Modern mit Akzenten |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| B | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| C | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** B (Dunkel edel)  
+**KREUZUNG:** B + D = "Dunkel + moderne Akzente"
+
+---
+
+## Durchlauf 65: Cover-Design
+**Problem:** Cover gestalten?
+
+**FITNESS:**
+- F1: Attraktiv — maximieren
+- F2: Professionell — maximieren
+- F3: Einprägsam — maximieren
+
+**VARIANTEN:**
+| A | Professionelles 3D Cover |
+| B | Minimal mit Bild |
+| C | Text-basiert |
+| D | Illustriert |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (3D Cover)  
+**KREUZUNG:** A + D = "3D + illustriert"
+
+---
+
+## Durchlauf 66: Typografie
+**Problem:** Welche Schriftart?
+
+**FITNESS:**
+- F1: Lesbarkeit — maximieren
+- F2: Stil — maximieren
+- F3: Professionalität — maximieren
+
+**VARIANTEN:**
+| A | Serif (klassisch) |
+| B | Sans-Serif (modern) |
+| C | Display (besonders) |
+| D | Kombination |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** B (Sans-Serif)  
+**KREUZUNG:** B + A = "Sans-Serif + Serif für Überschriften"
+
+---
+
+## Durchlauf 67: Farbschema Premium
+**Problem:** Welches Farbschema?
+
+**FITNESS:**
+- F1: Edles Gefühl — maximieren
+- F2: Kontrast — maximieren
+- F3: Augenschonung — maximieren
+
+**VARIANTEN:**
+| A | Gold + Schwarz |
+| B | Silber + Dunkelblau |
+| C | Bronze + Dunkelgrün |
+| D | Klassisch Rot/Weiß |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Gold + Schwarz)  
+**KREUZUNG:** A + B = "Gold-Schwarz + Silber Akzente"
+
+---
+
+## Durchlauf 68: Bilder-Stil
+**Problem:** Bilder wie präsentieren?
+
+**FITNESS:**
+- F1: Professionell — maximieren
+- F2: Einheitlich — maximieren
+- F3: Premium — maximieren
+
+**VARIANTEN:**
+| A | Mit Rahmen + Schatten |
+| B | Volle Breite |
+| C | Klein + Grid |
+| D | Mit Wasserzeichen |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Mit Rahmen)  
+**KREUZUNG:** A + B = "Rahmen + volle Breite Option"
+
+---
+
+## Durchlauf 69: Layout-Dichte
+**Problem:** Wie viel Inhalt pro Seite?
+
+**FITNESS:**
+- F1: Luftig — maximieren
+- F2: Informativ — maximieren
+- F3: Premium-Gefühl — maximieren
+
+**VARIANTEN:**
+| A | Viel Luft (luxuriös) |
+| B | Ausgewogen |
+| C | Dicht (informationsreich) |
+| D | Variabel |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (Viel Luft)  
+**KREUZUNG:** A + B = "Luftig + wichtige Teile dichter"
+
+---
+
+## Durchlauf 70: Interaktive Elemente
+**Problem:** Interaktion?
+
+**FITNESS:**
+- F1: Engagement — maximieren
+- F2: Wert — maximieren
+- F3: Professionalität — maximieren
+
+**VARIANTEN:**
+| A | Quiz + Audio |
+| B | Nur Quiz |
+| C | Nur Audio |
+| D | Keine |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Quiz + Audio)  
+**KREUZUNG:** A + B = "Beide + erweiterte Quiz"
+
+---
+
+## Durchlauf 71: Glossar-Design
+**Problem:** Glossar gestalten?
+
+**FITNESS:**
+- F1: Nutzbar — maximieren
+- F2: Schön — maximieren
+- F3: Praktisch — maximieren
+
+**VARIANTEN:**
+| A | Farbcodierte Kategorien |
+| B | Alphabetisch mit Icons |
+| C | Einfache Liste |
+| D | Suchbar |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Farbcodiert)  
+**KREUZUNG:** A + D = "Farbcodiert + suchbar"
+
+---
+
+## Durchlauf 72: Preis-Strategie
+**Problem:** Preis für das Buch?
+
+**FITNESS:**
+- F1: Wert perception — maximieren
+- F2: Umsatz — maximieren
+- F3: Zugänglichkeit — maximieren
+
+**VARIANTEN:**
+| A | 9,99€ (Premium) |
+| B | 4,99€ (Mittel) |
+| C | Kostenlos |
+| D | Spende |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (9,99€)  
+**KREUZUNG:** A + B = "9,99€ + 4,99€ Basisversion"
+
+---
+
+## Durchlauf 73: Zusatzmaterial
+**Problem:** Was noch enthalten?
+
+**FITNESS:**
+- F1: Wert — maximieren
+- F2: Nutzen — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Audio-Files |
+| B | Übungsblätter |
+| C | Beides |
+| D | Nichts |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** C (Beides)  
+**KREUZUNG:** C + A = "Beides + mehr Audio"
+
+---
+
+## Durchlauf 74: Druckversion
+**Problem:** Auch als Print?
+
+**FITNESS:**
+- F1: Optionen — maximieren
+| A | Ja, auf Anfrage |
+| B | Nur digital |
+| C | Print-on-Demand |
+| D | Nicht |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** C (Print-on-Demand)  
+**KREUZUNG:** C + A = "POD + Anfrage für Signiert"
+
+---
+
+## Durchlauf 75: Qualitätssicherung
+**Problem:** Wie sicherstellen?
+
+**FITNESS:**
+- F1: Qualität — maximieren
+- F2: Fehler — minimieren
+- F3: Zeit — minimieren
+
+**VARIANTEN:**
+| A | Professionelles Lektorat |
+| B | Beta-Leser |
+| C | Self-Review |
+| D | Beides |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+
+**GEWINNER:** D (Beides)  
+**KREUZUNG:** D + A = "Beides + professionelles Lektorat"
+
+---
+
+## ZUSAMMENFASSUNG — Runs 64-75
+
+| Runde | Problem | Gewinner | Kreuzung |
+|-------|---------|----------|----------|
+| 64 | Look & Feel | B (Dunkel edel) | + moderne Akzente |
+| 65 | Cover | A (3D Cover) | + illustriert |
+| 66 | Typografie | B (Sans-Serif) | + Serif Überschriften |
+| 67 | Farben | A (Gold+Schwarz) | + Silber Akzente |
+| 68 | Bilder | A (Mit Rahmen) | + volle Breite |
+| 69 | Layout | A (Viel Luft) | + variabel |
+| 70 | Interaktion | A (Quiz+Audio) | + erweitert |
+| 71 | Glossar | A (Farbcodiert) | + suchbar |
+| 72 | Preis | A (9,99€) | + 4,99€ Basis |
+| 73 | Zusatz | C (Beides) | Audio+Übungen |
+| 74 | Print | C (POD) | + Signiert |
+| 75 | QC | D (Beides) | + Lektorat |
+
+---
+
+## PREMIUM BUCH SPECS
+
+**Design:**
+- Dunkel edles Theme (Gold + Schwarz)
+- Sans-Serif + Serif Kombination
+- Viel Weißraum (luxuriös)
+- Bilder mit Rahmen + Schatten
+
+**Inhalt:**
+- Quiz + Audio interaktiv
+- Farbcodiertes Glossar
+- Audio-Files inklusive
+- Übungsblätter
+
+**Preis:**
+- 9,99€ Premium
+- 4,99€ Basisversion
+
+**Qualität:**
+- Beta-Leser + professionelles Lektorat
+- Print-on-Demand Option
+
+---
+
+*Erstellt: 07.03.2026*

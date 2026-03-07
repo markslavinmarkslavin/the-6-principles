@@ -1,0 +1,314 @@
+# P-M-A-S — Buch Mannheim (Runs 21-30)
+
+---
+
+## Durchlauf 21: Farbschema
+**Problem:** Welches Farbschema?
+
+**FITNESS:**
+- F1: Wiedererkennung — maximieren
+- F2: Professionalität — maximieren
+- F3: Kosten — minimieren
+
+**VARIANTEN:**
+| A | Blau-Gelb (DE Flagge) |
+| B | Grün-Weiß (Ukraine) |
+| C | Neutral (Schwarz-Weiß) |
+| D | Bunt |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+8=22 | 5+5+6=16 | 4+4+5=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Blau-Gelb)  
+**KREUZUNG:** A + B = "DE Flagge + UA Akzente"
+
+---
+
+## Durchlauf 22: Schriftart
+**Problem:** Welche Schrift?
+
+**FITNESS:**
+- F1: Lesbarkeit — maximieren
+- F2: Professionalität — maximieren
+- F3: Kosten — minimieren
+
+**VARIANTEN:**
+| A | Sans-Serif (modern) |
+| B | Serif (klassisch) |
+| C | Handschrift |
+| D | Monospace |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Sans-Serif)  
+**KREUZUNG:** A + B = "Sans für Text + Serif für Überschriften"
+
+---
+
+## Durchlauf 23: Bilder
+**Problem:** Bilder enthalten?
+
+**FITNESS:**
+- F1: Verständnis — maximieren
+- F2: Kosten — minimieren
+- F3: Seitenanzahl — minimieren
+
+**VARIANTEN:**
+| A | Keine Bilder |
+| B | Icons only |
+| C | Illustrationen |
+| D | Fotos |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+9+9=27 | 7+7+7=21 | 5+5+5=15 | **63** |
+| B | 8+8+8=24 | 6+6+6=18 | 5+5+4=14 | 56 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Keine Bilder)  
+**KREUZUNG:** A + B = "Keine + Icons für wichtig"
+
+---
+
+## Durchlauf 24: Seitenlayout
+**Problem:** Layout-Style?
+
+**FITNESS:**
+- F1: Lesbarkeit — maximieren
+- F2: Modernität — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Ein Spalte |
+| B | Zwei Spalten |
+| C | Mix |
+| D | Minimal |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Ein Spalte)  
+**KREUZUNG:** A + C = "Ein Spalte + Mix für Übungen"
+
+---
+
+## Durchlauf 25: Übungsformat
+**Problem:** Wie Übungen formatieren?
+
+**FITNESS:**
+- F1: Klarheit — maximieren
+- F2: Lösung — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Im Buch |
+| B | Online (Link) |
+| C | Extra PDF |
+| D | App |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Im Buch)  
+**KREUZUNG:** A + B = "Im Buch + Online Link"
+
+---
+
+## Durchlauf 26: Bonus-Material
+**Problem:** Was als Bonus?
+
+**FITNESS:**
+- F1: Wert — maximieren
+- F2: Aufwand — minimieren
+- F3: Motivation — maximieren
+
+**VARIANTEN:**
+| A | 50 digitale Karten |
+| B | Audio-Dateien |
+| C | Checklisten |
+| D | Alle drei |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (50 Karten)  
+**KREUZUNG:** A + C = "Karten + Checklisten"
+
+---
+
+## Durchlauf 27: Testseiten
+**Problem:** Testseiten enthalten?
+
+**FITNESS:**
+- F1: Nutzen — maximieren
+- F2: Feedback — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Am Ende |
+| B | Nach jedem Kapitel |
+| C | Online |
+| D | Keine Tests |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+7+7=20 | 5+5+5=15 | 4+4+4=12 | 47 |
+
+**GEWINNER:** A (Am Ende)  
+**KREUZUNG:** A + B = "Am Ende + Online Test"
+
+---
+
+## Durchlauf 28: Danksagung
+**Problem:** Danksagung?
+
+**FITNESS:**
+- F1: Community — maximieren
+- F2: Wertschätzung — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Keine |
+| B | Kurz (1 Person) |
+| C | Lang (Community) |
+| D | Extra Seite |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** C (Lang)  
+**KREUZUNG:** C + D = "Lang + Extra Seite"
+
+---
+
+## Durchlauf 29: ISBN
+**Problem:** ISBN besorgen?
+
+**FITNESS:**
+- F1: Professionalität — maximieren
+- F2: Kosten — minimieren
+- F3: Distribution — maximieren
+
+**VARIANTEN:**
+| A | Kostenlos (Gemeinfrei) |
+| B | ISBN kaufen |
+| C | Später |
+| D | Nicht nötig |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Kostenlos)  
+**KREUZUNG:** A + C = "Kostenlos jetzt + Später kaufen"
+
+---
+
+## Durchlauf 30: Endkorrektur
+**Problem:** Korrektur durch wen?
+
+**FITNESS:**
+- F1: Qualität — maximieren
+- F2: Kosten — minimieren
+- F3: Schnell — maximieren
+
+**VARIANTEN:**
+| A | Selbst (KI-Hilfe) |
+| B | Professioneller Lektor |
+| C | Community (Freiwillige) |
+| D | Keine Korrektur |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Selbst + KI)  
+**KREUZUNG:** A + C = "Selbst + Community als Testleser"
+
+---
+
+## ZUSAMMENFASSUNG — Runs 21-30
+
+| Runde | Problem | Gewinner | Kreuzung |
+|-------|---------|----------|----------|
+| 21 | Farben | A (DE) | DE + UA |
+| 22 | Schrift | A (Sans) | Sans + Serif |
+| 23 | Bilder | A (Keine) | Keine + Icons |
+| 24 | Layout | A (1 Spalte) | 1 + Mix |
+| 25 | Übungen | A (Im Buch) | Buch + Online |
+| 26 | Bonus | A (Karten) | Karten + Checklisten |
+| 27 | Tests | A (Ende) | Ende + Online |
+| 28 | Danke | C (Lang) | Lang + Seite |
+| 29 | ISBN | A (Kostenlos) | Kostenlos + Später |
+| 30 | Korrektur | A (Selbst+KI) | Selbst + Community |
+
+---
+
+## BUCH FINAL SPECS
+
+**Design:**
+- Farbe: Blau-Gelb (DE) + UA Akzente
+- Schrift: Sans-Serif
+- Bilder: Keine (nur Icons)
+- Layout: 1 Spalte
+
+**Inhalt:**
+- 30 Seiten
+- 5 Kapitel
+- Übungen im Buch
+- Tests am Ende
+- Bonus: 50 Karten + Checklisten
+
+**Produktion:**
+- Selbst mit KI
+- Kostenlos ISBN
+- Updates: kostenlos
+
+---
+
+*Erstellt: 07.03.2026*
