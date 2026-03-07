@@ -1,0 +1,312 @@
+# P-M-A-S — Buch Mannheim (Runs 31-40)
+
+---
+
+## Durchlauf 31: HTML-Version
+**Problem:** HTML-Version erstellen?
+
+**FITNESS:**
+- F1: Zugänglichkeit — maximieren
+- F2: Kosten — minimieren
+- F3: Interaktivität — maximieren
+
+**VARIANTEN:**
+| A | Kostenlos online lesen |
+| B | Nur PDF |
+| C | Beides |
+| D | Keine HTML |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Kostenlos online)  
+**KREUZUNG:** A + C = "Online jetzt + PDF später"
+
+---
+
+## Durchlauf 32: Interaktive Elemente
+**Problem:** Interaktive Elemente in HTML?
+
+**FITNESS:**
+- F1: Engagement — maximieren
+- F2: Komplexität — minimieren
+- F3: Kosten — minimieren
+
+**VARIANTEN:**
+| A | Quiz-Buttons |
+| B | Audio-Player |
+| C | Links zu Ressourcen |
+| D | Alle drei |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Quiz-Buttons)  
+**KREUZUNG:** A + C = "Quiz + Links"
+
+---
+
+## Durchlauf 33: Responsives Design
+**Problem:** Mobile-optimiert?
+
+**FITNESS:**
+- F1: Nutzererlebnis — maximieren
+- F2: Aufwand — minimieren
+- F3: Kompatibilität — maximieren
+
+**VARIANTEN:**
+| A | Mobile-first |
+| B | Desktop-first |
+| C | Beides |
+| D | Nicht wichtig |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Mobile-first)  
+**KREUZUNG:** A + C = "Mobile-first + Desktop OK"
+
+---
+
+## Durchlauf 34: Farben HTML
+**Problem:** Farben in HTML?
+
+**FITNESS:**
+- F1: Lesbarkeit — maximieren
+- F2: Style — maximieren
+- F3: Einfachheit — minimieren
+
+**VARIANTEN:**
+| A | Hell (Light Mode) |
+| B | Dunkel (Dark Mode) |
+| C | Beides |
+| D | System-Folge |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+8+8=24 | 6+6+6=18 | 5+5+4=14 | 56 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** B (Dark Mode)  
+**KREUZUNG:** B + D = "Dark Mode + System-Folge"
+
+---
+
+## Durchlauf 35: Navigation
+**Problem:** Navigation in HTML?
+
+**FITNESS:**
+- F1: Benutzerfreundlichkeit — maximieren
+- F2: Einfachheit — minimieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Keine Navigation |
+| B | Einfaches Menü |
+| C | Komplette Navbar |
+| D | Scroll-To-Top |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** B (Einfaches Menü)  
+**KREUZUNG:** B + D = "Menü + Scroll-To-Top"
+
+---
+
+## Durchlauf 36: Druckversion HTML
+**Problem:** Druckfreundliche CSS?
+
+**FITNESS:**
+- F1: Druckqualität — maximieren
+- F2: Aufwand — minimieren
+- F3: Kosten — minimieren
+
+**VARIANTEN:**
+| A | Ja (print CSS) |
+| B | Nein |
+| C | Separate Version |
+| D | Nur PDF |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (print CSS)  
+**KREUZUNG:** A + D = "Print CSS + PDF Download"
+
+---
+
+## Durchlauf 37: Hosting
+**Problem:** Wo hosten?
+
+**FITNESS:**
+- F1: Kosten — minimieren
+- F2: Zuverlässigkeit — maximieren
+- F3: Einfachheit — maximieren
+
+**VARIANTEN:**
+| A | GitHub Pages |
+| B | Netlify |
+| C | Vercel |
+| D | Eigene Domain |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (GitHub Pages)  
+**KREUZUNG:** A + B = "GitHub Pages + Netlify"
+
+---
+
+## Durchlauf 38: SEO HTML
+**Problem:** SEO optimieren?
+
+**FITNESS:**
+- F1: Sichtbarkeit — maximieren
+- F2: Aufwand — minimieren
+- F3: Metadaten — maximieren
+
+**VARIANTEN:**
+| A | Basis SEO |
+| B | Vollständig SEO |
+| C | Keine SEO |
+| D | Später |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (Basis SEO)  
+**KREUZUNG:** A + B = "Basis jetzt + Voll später"
+
+---
+
+## Durchlauf 39: Fonts in HTML
+**Problem:** Welche Fonts einbetten?
+
+**FITNESS:**
+- F1: Ladezeit — maximieren
+- F2: Ästhetik — maximieren
+- F3: Lizenz — minimieren
+
+**VARIANTEN:**
+| A | Google Fonts |
+| B | System-Fonts |
+| C | Keine Fonts |
+| D | Offline Fonts |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (System-Fonts)  
+**KREUZUNG:** B + A = "System jetzt + Google später"
+
+---
+
+## Durchlauf 40: Kontakt/Feedback
+**Problem:** Kontakt-Möglichkeit?
+
+**FITNESS:**
+- F1: Erreichbarkeit — maximieren
+- F2: Spam — minimieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Email-Link |
+| B | Telegram-Link |
+| C | Formular |
+| D | Keine |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (Telegram-Link)  
+**KREUZUNG:** B + A = "Telegram + Email als Backup"
+
+---
+
+## ZUSAMMENFASSUNG — Runs 31-40
+
+| Runde | Problem | Gewinner | Kreuzung |
+|-------|---------|----------|----------|
+| 31 | HTML-Version | A (Online) | Online + PDF |
+| 32 | Interaktiv | A (Quiz) | Quiz + Links |
+| 33 | Responsive | A (Mobile) | Mobile-first |
+| 34 | Farben | B (Dark) | Dark + System |
+| 35 | Navigation | B (Menü) | Menü + Scroll |
+| 36 | Druck | A (print CSS) | Print + PDF |
+| 37 | Hosting | A (GitHub) | GitHub + Netlify |
+| 38 | SEO | A (Basis) | Basis + Voll |
+| 39 | Fonts | B (System) | System + Google |
+| 40 | Kontakt | B (Telegram) | Telegram + Email |
+
+---
+
+## HTML BUCH SPECS
+
+**Technisch:**
+- Kostenlos online lesen
+- Mobile-first Design
+- Dark Mode
+- Einfaches Menü
+- GitHub Pages hosten
+- Basis SEO
+- System Fonts
+- Telegram Kontakt
+
+**Inhalt:**
+- Quiz-Buttons
+- Links zu Ressourcen
+- Druckfreundlich (print CSS)
+- 30 Seiten
+
+---
+
+*Erstellt: 07.03.2026*

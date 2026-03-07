@@ -1,0 +1,316 @@
+# P-M-A-S — Buch Mannheim (Runs 11-20)
+
+---
+
+## Durchlauf 11: Buch-Titel
+**Problem:** Welcher Titel?
+
+**FITNESS:**
+- F1: Aufmerksamkeit — maximieren
+- F2: Klarheit — maximieren
+- F3: SEO — maximieren
+
+**VARIANTEN:**
+| A | Deutsch lernen in Mannheim |
+| B | Deutsch für Anfänger in Mannheim |
+| C | Dein Start in Mannheim |
+| D | German Cards: Mannheim |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A  
+**KREUZUNG:** A + B = "Deutsch lernen in Mannheim — für Anfänger"
+
+---
+
+## Durchlauf 12: Kapitel-Struktur
+**Problem:** Wie viele Kapitel?
+
+**FITNESS:**
+- F1: Übersicht — maximieren
+- F2: Lernfortschritt — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | 5 Kapitel |
+| B | 7 Kapitel |
+| C | 10 Kapitel |
+| D | 12 Kapitel |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (5 Kapitel)  
+**KREUZUNG:** A + B = "5 Haupt + 2 Bonus"
+
+---
+
+## Durchlauf 13: Cover-Design
+**Problem:** Welches Cover?
+
+**FITNESS:**
+- F1: Wiedererkennung — maximieren
+- F2: Professionalität — maximieren
+- F3: Kosten — minimieren
+
+**VARIANTEN:**
+| A | Minimal (Text only) |
+| B | Illustration (Stadt) |
+| C | Foto (Menschen) |
+| D | German Cards Style |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+6+6=19 | 5+4+4=13 | 4+3+3=10 | 42 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Minimal)  
+**KREUZUNG:** A + D = "Minimal + German Cards Logo"
+
+---
+
+## Durchlauf 14: Übungen
+**Problem:** Übungen integrieren?
+
+**FITNESS:**
+- F1: Lerneffekt — maximieren
+- F2: Engagement — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Keine Übungen |
+| B | Multiple Choice |
+| C | Lückentexte |
+| D | Alle drei |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 7+7+8=22 | 5+5+6=16 | 4+4+5=13 | 51 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (Multiple Choice)  
+**KREUZUNG:** B + C = "Multiple Choice + Lückentexte"
+
+---
+
+## Durchlauf 15: Glossar
+**Problem:** Glossar enthalten?
+
+**FITNESS:**
+- F1: Nützlichkeit — maximieren
+- F2: Umfang — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | 50 Wörter |
+| B | 100 Wörter |
+| C | 200 Wörter |
+| D | Kein Glossar |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (50 Wörter)  
+**KREUZUNG:** A + B = "50 + 100 als Download"
+
+---
+
+## Durchlauf 16: QR-Codes
+**Problem:** QR-Codes für Audio?
+
+**FITNESS:**
+- F1: Mehrwert — maximieren
+- F2: Kosten — minimieren
+- F3: Komplexität — minimieren
+
+**VARIANTEN:**
+| A | Mit Audio (QR) |
+| B | Nur Text |
+| C | Mit Video (QR) |
+| D | Mit Community-Link |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Audio QR)  
+**KREUZUNG:** A + D = "Audio + Telegram-Link"
+
+---
+
+## Durchlauf 17: Preis-Bundles
+**Problem:** Bundle anbieten?
+
+**FITNESS:**
+- F1: Umsatz — maximieren
+- F2: Wert — maximieren
+- F3: Komplexität — minimieren
+
+**VARIANTEN:**
+| A | Buch allein (4,99€) |
+| B | Buch + Karten (9,99€) |
+| C | Buch + Karten + Audio (14,99€) |
+| D | Alle drei Optionen |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+8+8=24 | 6+6+6=18 | 5+5+4=14 | 56 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (Buch + Karten)  
+**KREUZUNG:** B + D = "B+K als Haupt + Alle Optionen"
+
+---
+
+## Durchlauf 18: Launch-Strategie
+**Problem:** Wie launchen?
+
+**FITNESS:**
+- F1: Erstverkäufe — maximieren
+- F2: Aufmerksamkeit — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Soft Launch (Telegram) |
+| B | Product Hunt |
+| C | Beides |
+| D | Auf später |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 6+7+6=19 | 5+5+5=15 | 4+4+4=12 | 46 |
+
+**GEWINNER:** A (Soft Launch Telegram)  
+**KREUZUNG:** A + C = "Telegram zuerst + Product Hunt später"
+
+---
+
+## Durchlauf 19: Updates
+**Problem:** Buch updaten?
+
+**FITNESS:**
+- F1: Wert — maximieren
+- F2: Aufwand — minimieren
+- F3: Zufriedenheit — maximieren
+
+**VARIANTEN:**
+| A | Kostenlose Updates |
+| B | V2 für neu Käufer |
+| C | Upgrade gegen Aufpreis |
+| D | Nie updaten |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+7+6=19 | 5+5+5=15 | 4+4+4=12 | 46 |
+
+**GEWINNER:** A (Kostenlose Updates)  
+**KREUZUNG:** A + B = "Free Updates + V2 für Neue"
+
+---
+
+## Durchlauf 20: Druckversion
+**Problem:** Gedruckte Version?
+
+**FITNESS:**
+- F1: Nachfrage — maximieren
+- F2: Kosten — minimieren
+- F3: Profit — maximieren
+
+**VARIANTEN:**
+| A | Print-on-Demand |
+| B | Bulk-Druck |
+| C | Nur digital |
+| D | Später |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| C | 8+8+7=23 | 6+6+5=17 | 5+5+4=14 | 54 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (Print-on-Demand)  
+**KREUZUNG:** A + C = "POD jetzt + Digital bleibt Haupt"
+
+---
+
+## ZUSAMMENFASSUNG — Runs 11-20
+
+| Runde | Problem | Gewinner | Kreuzung |
+|-------|---------|----------|----------|
+| 11 | Titel | A | A + B |
+| 12 | Kapitel | A (5) | 5 + 2 Bonus |
+| 13 | Cover | A (Minimal) | Minimal + Logo |
+| 14 | Übungen | B (MC) | MC + Lücken |
+| 15 | Glossar | A (50) | 50 + 100 Download |
+| 16 | QR-Codes | A (Audio) | Audio + Telegram |
+| 17 | Bundles | B (B+K) | B+K + Alle |
+| 18 | Launch | A (Telegram) | TG + PH |
+| 19 | Updates | A (Free) | Free + V2 |
+| 20 | Druck | A (POD) | POD + Digital |
+
+---
+
+## BUCH MAKET — FINAL
+
+**Titel:** Deutsch lernen in Mannheim — für Anfänger
+
+**Struktur:**
+1. Einleitung (2 Seiten)
+2. Grundlagen (5 Seiten)
+3. Alltag (8 Seiten)
+4. Arbeit (8 Seiten)
+5. Übungen + Lösungen (7 Seiten)
+
+**Extras:**
+- 50 Wörter Glossar
+- QR-Codes für Audio
+- Telegram-Gruppe Link
+- Kostenlose Updates
+
+**Preise:**
+- Buch allein: 4,99€
+- Buch + 50 Karten: 9,99€
+- POD (später): 14,99€
+
+---
+
+*Erstellt: 07.03.2026*

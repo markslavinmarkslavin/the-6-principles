@@ -1,0 +1,324 @@
+# P-M-A-S — German Cards Ukraine Buch (Mannheim Edition)
+
+---
+
+## Durchlauf 1: Buch-Format
+**Problem:** Welches Format für das Buch?
+
+**FITNESS:**
+- F1: Produktionskosten — minimieren
+- F2: Nachfrage — maximieren
+- F3: Verteilung — maximieren
+
+**VARIANTEN:**
+| A | PDF (digital) |
+| B | Gedrucktes Buch |
+| C | Beides |
+| D | E-Book (Amazon) |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+9+9=27 | 7+7+7=21 | 5+5+5=15 | **63** |
+| B | 6+6+7=19 | 5+5+5=15 | 4+4+4=12 | 46 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 8+8+8=24 | 6+6+6=18 | 5+5+4=14 | 56 |
+
+**GEWINNER:** A (PDF digital)  
+**KREUZUNG:** A + D = "PDF jetzt + Amazon später"
+
+---
+
+## Durchlauf 2: Buch-Thema
+**Problem:** Welches Thema für erstes Buch?
+
+**FITNESS:**
+- F1: Relevanz — maximieren
+- F2: Nachfrage — maximieren
+- F3: Einzigartigkeit — maximieren
+
+**VARIANTEN:**
+| A | Deutsch für Anfänger (Mannheim) |
+| B | Alltagsdeutsch (Mannheim) |
+| C | Business Deutsch (Mannheim) |
+| D | Deutsch für Ärzte (Mannheim) |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Anfänger)  
+**KREUZUNG:** A + B = "Anfänger + Alltag kombinieren"
+
+---
+
+## Durchlauf 3: Preis
+**Problem:** Welcher Preis?
+
+**FITNESS:**
+- F1: Verkäufe — maximieren
+- F2: Wahrnehmung — maximieren
+- F3: Profit — maximieren
+
+**VARIANTEN:**
+| A | 4,99€ |
+| B | 9,99€ |
+| C | 14,99€ |
+| D | Kostenlos |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 7+8+7=22 | 5+6+5=16 | 4+5+4=13 | 51 |
+
+**GEWINNER:** A (4,99€)  
+**KREUZUNG:** A + B = "4,99€ Start + 9,99€ für Premium"
+
+---
+
+## Durchlauf 4: Distribution
+**Problem:** Wo verkaufen?
+
+**FITNESS:**
+- F1: Reichweite — maximieren
+- F2: Kosten — minimieren
+- F3: Einfachheit — maximieren
+
+**VARIANTEN:**
+| A | Eigene Webseite |
+| B | Gumroad |
+| C | Amazon KDP |
+| D | Alle |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (Gumroad)  
+**KREUZUNG:** B + A = "Gumroad + eigene Seite"
+
+---
+
+## Durchlauf 5: Inhalt-Umfang
+**Problem:** Wie viele Seiten?
+
+**FITNESS:**
+- F1: Wert — maximieren
+- F2: Produktionszeit — minimieren
+- F3: Preis-Leistung — maximieren
+
+**VARIANTEN:**
+| A | 30 Seiten |
+| B | 50 Seiten |
+| C | 100 Seiten |
+| D | 200 Seiten |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+9+8=26 | 7+7+6=20 | 5+5+4=14 | **60** |
+| B | 8+8+7=23 | 6+6+5=17 | 5+5+4=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 5+5+6=16 | 4+4+5=13 | 3+3+4=10 | 39 |
+
+**GEWINNER:** A (30 Seiten)  
+**KREUZUNG:** A + B = "30 Seiten + 50 für Premium"
+
+---
+
+## Durchlauf 6: Mannheim-Fokus
+**Problem:** Wie Mannheim integrieren?
+
+**FITNESS:**
+- F1: Relevanz — maximieren
+- F2: Einzigartigkeit — maximieren
+- F3: Lokale Verbindung — maximieren
+
+**VARIANTEN:**
+| A | Mannheim-spezifisch |
+| B | Ganz Deutschland + Mannheim |
+| C | Ganz Deutschland |
+| D | Allgemein |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Mannheim-spezifisch)  
+**KREUZUNG:** A + B = "Mannheim-Fokus + Deutschland-weit"
+
+---
+
+## Durchlauf 7: Kartenteil
+**Problem:** Mit Karten oder ohne?
+
+**FITNESS:**
+- F1: Wert — maximieren
+- F2: Kosten — minimieren
+- F3: Einzigartigkeit — maximieren
+
+**VARIANTEN:**
+| A | Mit 50 Karten |
+| B | Mit 100 Karten |
+| C | Ohne Karten |
+| D | Karten separat |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+
+**GEWINNER:** D (Karten separat)  
+**KREUZUNG:** D + A = "Buch ohne + 50 Karten extra"
+
+---
+
+## Durchlauf 8: Marketing
+**Problem:** Wie bewerben?
+
+**FITNESS:**
+- F1: Reichweite — maximieren
+- F2: Kosten — minimieren
+- F3: Conversion — maximieren
+
+**VARIANTEN:**
+| A | Telegram-Community |
+| B | Instagram |
+| C | LinkedIn |
+| D | Alle |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** A (Telegram)  
+**KREUZUNG:** A + B = "Telegram + Instagram"
+
+---
+
+## Durchlauf 9: Sprachen
+**Problem:** In welchen Sprachen?
+
+**FITNESS:**
+- F1: Zielgruppe — maximieren
+- F2: Verständlichkeit — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Deutsch + Ukrainsich |
+| B | Deutsch + Russisch |
+| C | Nur Deutsch |
+| D | Alle drei |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Deutsch + Ukrainsich)  
+**KREUZUNG:** A + B = "DE+UA jetzt + RU später"
+
+---
+
+## Durchlauf 10: Nächste Stadt
+**Problem:** Nach Mannheim welche Stadt?
+
+**FITNESS:**
+- F1: Nachfrage — maximieren
+- F2: Community — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | Berlin |
+| B | Frankfurt |
+| C | Hamburg |
+| D | München |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+7=19 | 5+5+5=15 | 4+4+4=12 | 46 |
+
+**GEWINNER:** A (Berlin)  
+**KREUZUNG:** A + B = "Berlin + Frankfurt"
+
+---
+
+## ZUSAMMENFASSUNG — Buch Projekt
+
+| Durchlauf | Problem | Gewinner | Kreuzung |
+|-----------|---------|----------|----------|
+| 1 | Format | A (PDF) | PDF + Amazon |
+| 2 | Thema | A (Anfänger) | Anfänger + Alltag |
+| 3 | Preis | A (4,99€) | 4,99 + 9,99 |
+| 4 | Distribution | B (Gumroad) | Gumroad + eigene Seite |
+| 5 | Umfang | A (30 Seiten) | 30 + 50 |
+| 6 | Mannheim | A (spezifisch) | Mannheim + DE |
+| 7 | Karten | D (separat) | Buch + Karten |
+| 8 | Marketing | A (Telegram) | Telegram + Instagram |
+| 9 | Sprachen | A (DE+UA) | DE+UA + RU |
+| 10 | Nächste Stadt | A (Berlin) | Berlin + Frankfurt |
+
+---
+
+## BUCH PRODUKT
+
+**Titel:** "Deutsch lernen in Mannheim — für Anfänger"
+
+**Format:** PDF (30 Seiten)
+**Preis:** 4,99€
+**Sprache:** Deutsch + Ukrainsich
+**Distribution:** Gumroad
+
+**Inhalt:**
+- Wichtige Sätze für Alltag
+- Deutsch-Ukrainisch Wörterbuch
+- Mannheim-spezifische Tipps
+- Übungen
+
+**Zusätzlich:**
+- 50 digitale Karten (separat)
+- Telegram-Gruppe für Fragen
+
+---
+
+## KERNERGEBNIS
+
+1. **Erstes Buch:** Mannheim-spezifisch, Anfänger, 4,99€
+2. **Distribution:** Gumroad
+3. **Sprache:** Deutsch + Ukrainsich
+4. **Karten:** Separat verkaufen
+5. **Nächste Stadt:** Berlin
+
+---
+
+*Erstellt: 07.03.2026*
+*Methode: P-M-A-S*

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deutsch lernen in Mannheim - für Anfänger">
+  <title>Deutsch lernen in Mannheim — für Anfänger</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --primary: #1a1a1a;
+      --secondary: #c9a227;
+      --accent: #d4af37;
+      --gold: #d4af37;
+      --bg: #0d0d0d;
+      --bg-card: #1a1a1a;
+      --text: #e8e8e8;
+      --text-muted: #a0a0a0;
+      --card-bg: #242424;
+      --border: #333333;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d0d0d;
+        --text: #e8e8e8;
+        --card-bg: #242424;
+      }
+    }
+    
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      letter-spacing: 0.02em;
+    }
+    
+    h1, h2, h3 {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+    }
+    
+    .container { max-width: 700px; margin: 0 auto; padding: 40px 20px; }
+    
+    header {
+      background: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%);
+      border-bottom: 3px solid var(--gold);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    
+    header h1 { 
+      font-size: 2.8em; 
+      margin-bottom: 15px;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    header p { 
+      font-size: 1.1em; 
+      opacity: 0.85;
+      font-style: italic;
+    }
+    
+    .flag { 
+      font-size: 3.5em; 
+      margin-bottom: 25px;
+      display: block;
+    }
+    
+    nav {
+      background: var(--card-bg);
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--gold);
+      backdrop-filter: blur(10px);
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 2px;
+      background: transparent;
+      transition: all 0.3s;
+      border: 1px solid transparent;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    nav a:hover { 
+      background: var(--gold); 
+      color: #000;
+      border-color: var(--gold);
+    }
+    
+    section { 
+      margin: 50px 0; 
+      padding: 40px; 
+      background: var(--card-bg); 
+      border-radius: 4px;
+      border: 1px solid var(--border);
+    }
+    
+    h2 {
+      color: var(--gold);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 15px;
+      margin-bottom: 30px;
+      font-size: 1.6em;
+    }
+    
+    .card {
+      background: var(--bg);
+      padding: 25px;
+      border-radius: 3px;
+      margin: 20px 0;
+      border-left: 3px solid var(--gold);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    
+    .card-de { 
+      font-size: 1.5em; 
+      font-weight: bold; 
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .card-ua { 
+      color: #7cb342; 
+      margin: 12px 0;
+      font-size: 1.1em;
+    }
+    .card-example { 
+      background: var(--card-bg); 
+      padding: 15px; 
+      border-radius: 3px; 
+      font-style: italic;
+      border: 1px solid var(--border);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .card-example { background: var(--card-bg); }
+    }
+    
+    .quiz-btn {
+      background: linear-gradient(135deg, var(--gold) 0%, #b8962e 100%);
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 1em;
+      margin: 15px 10px;
+      transition: all 0.3s;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .quiz-btn:hover { 
+      transform: translateY(-2px); 
+      box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+    }
+    
+    .audio-btn {
+      background: transparent;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 10px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.9em;
+      transition: all 0.3s;
+    }
+    
+    .audio-btn:hover {
+      background: var(--gold);
+      color: #000;
+    }
+    
+    .toc { 
+      background: var(--card-bg); 
+      padding: 30px; 
+      border-radius: 3px;
+      border: 1px solid var(--border);
+    }
+    .toc ul { margin-left: 25px; }
+    .toc li { margin: 15px 0; }
+    .toc a { color: var(--gold); text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    
+    footer {
+      background: #0a0a0a;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 50px 20px;
+      margin-top: 80px;
+      border-top: 2px solid var(--gold);
+    }
+    
+    .cta-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold) 0%, #b8962e 100%);
+      color: #000;
+      padding: 18px 40px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 15px;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    .cta-btn:hover { 
+      transform: translateY(-3px); 
+      box-shadow: 0 15px 30px rgba(212, 175, 55, 0.3);
+    }
+    
+    .book-img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 3px;
+      margin: 30px 0;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5), 0 0 0 1px var(--gold);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .img-caption {
+      font-size: 0.9em;
+      color: var(--text-muted);
+      text-align: center;
+      font-style: italic;
+      margin-top: -20px;
+      margin-bottom: 30px;
+      padding: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .img-caption { color: #aaa; }
+    }
+    
+    @media print {
+      nav, .quiz-btn, .audio-btn, .cta-btn { display: none; }
+      body { font-size: 12pt; }
+      section { break-inside: avoid; }
+    }
+    
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8em; }
+      .container { padding: 10px; }
+      section { padding: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="flag">✦ ✦ ✦</div>
+  <h1>Deutsch lernen in Mannheim</h1>
+  <p style="color: var(--gold); font-size: 1.2em; margin-top: 10px;">Premium Lernbuch für Anfänger</p>
+  <p>для початківців • для українців</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#einleitung">Einleitung</a></li>
+    <li><a href="#grundlagen">Grundlagen</a></li>
+    <li><a href="#alltag">Alltag</a></li>
+    <li><a href="#arbeit">Arbeit</a></li>
+    <li><a href="#uebungen">Übungen</a></li>
+    <li><a href="#glossar">Glossar</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+<section id="einleitung">
+  <h2>📖 Einleitung</h2>
+  <img src="BUCH_MANNHEIM_ONLINE_images/01-wasserturm.jpg" alt="Wasserturm Mannheim" class="book-img">
+  <p class="img-caption">Mannheim Wasserturm — symbol of the city</p>
+  <p>Willkommen zu "Deutsch lernen in Mannheim" — ein praktischer Leitfaden für alle, die in Mannheim leben und Deutsch lernen möchten.</p>
+  <br>
+  <p><strong>Was dich erwartet:</strong></p>
+  <ul>
+    <li>Wichtige Sätze für den Alltag</li>
+    <li>Deutsch-Ukrainisch Wörterbuch</li>
+    <li>Mannheim-spezifische Tipps</li>
+    <li>Übungen mit Lösungen</li>
+  </ul>
+  <br>
+  <button class="quiz-btn" onclick="alert('Übung 1: Was bedeutet "Guten Tag"?\n\nA) Guten Morgen\nB) Guten Tag ✓\nC) Guten Abend')">Übung 1 starten</button>
+</section>
+
+<section id="grundlagen">
+  <h2>📚 Grundlagen</h2>
+  <img src="BUCH_MANNHEIM_ONLINE_images/04-quadrate.jpg" alt="Mannheim Quadrate" class="book-img">
+  <p class="img-caption">Die berühmten Quadrate — das Herz der Stadt</p>
+  
+  <div class="card">
+    <div class="card-de">Guten Tag</div>
+    <div class="card-ua">Добрий день</div>
+    <div class="card-example">Guten Tag, wie geht es Ihnen?</div>
+    <button class="audio-btn">🔊 Audio</button>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Auf Wiedersehen</div>
+    <div class="card-ua">До побачення</div>
+    <div class="card-example">Auf Wiedersehen, bis morgen!</div>
+    <button class="audio-btn">🔊 Audio</button>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Bitte</div>
+    <div class="card-ua">Будь ласка</div>
+    <div class="card-example">Bitte schön!</div>
+    <button class="audio-btn">🔊 Audio</button>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Danke</div>
+    <div class="card-ua">Дякую</div>
+    <div class="card-example">Vielen Dank!</div>
+    <button class="audio-btn">🔊 Audio</button>
+  </div>
+  
+  <button class="quiz-btn" onclick="alert('Übung 2: Wie sagt man "Дякую" auf Deutsch?\n\nA) Bitte\nB) Danke ✓\nC) Hallo')">Übung 2 starten</button>
+</section>
+
+<section id="alltag">
+  <h2>🛒 Alltag</h2>
+  <img src="BUCH_MANNHEIM_ONLINE_images/05-stadt.jpg" alt="Mannheim Stadt" class="book-img">
+  <p class="img-caption">Entdecke Mannheim — deine neue Stadt</p>
+  
+  <div class="card">
+    <div class="card-de">Der Supermarkt</div>
+    <div class="card-ua">Супермаркет</div>
+    <div class="card-example">Ich gehe zum Supermarkt.</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Die Apotheke</div>
+    <div class="card-ua">Аптека</div>
+    <div class="card-example">Ich brauche eine Apotheke.</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Die Bank</div>
+    <div class="card-ua">Банк</div>
+    <div class="card-example">Ich muss zur Bank gehen.</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Der Bus</div>
+    <div class="card-ua">Автобус</div>
+    <div class="card-example">Der Bus kommt um 8 Uhr.</div>
+  </div>
+  
+  <button class="quiz-btn" onclick="alert('Übung 3: Wo kauft man Medikamente?\n\nA) Apotheke ✓\nB) Bank\nC) Supermarkt')">Übung 3 starten</button>
+</section>
+
+<section id="arbeit">
+  <h2>💼 Arbeit</h2>
+  <img src="BUCH_MANNHEIM_ONLINE_images/06-architektur.jpg" alt="Mannheim Architektur" class="book-img">
+  <p class="img-caption">Arbeite in Mannheim — moderne Stadt</p>
+  
+  <div class="card">
+    <div class="card-de">Die Bewerbung</div>
+    <div class="card-ua">Заява про прийом</div>
+    <div class="card-example">Ich habe eine Bewerbung geschrieben.</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Das Vorstellungsgespräch</div>
+    <div class="card-ua">Співбесіда</div>
+    <div class="card-example">Das Gespräch war um 10 Uhr.</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Der Lebenslauf</div>
+    <div class="card-ua">Резюме</div>
+    <div class="card-example">Hier ist mein Lebenslauf.</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-de">Das Gehalt</div>
+    <div class="card-ua">Зарплата</div>
+    <div class="card-example">Das Gehalt ist 2500 Euro.</div>
+  </div>
+  
+  <button class="quiz-btn" onclick="alert('Übung 4: Was ist "Lebenslauf"?\n\nA) Зарплата\nB) Резюме ✓\nC) Співбесіда')">Übung 4 starten</button>
+</section>
+
+<section id="uebungen">
+  <h2>✏️ Übungen</h2>
+  
+  <h3>Multiple Choice</h3>
+  
+  <div class="card">
+    <p><strong>1.</strong> Wie sagt man "Добрий день"?</p>
+    <button class="quiz-btn" onclick="alert('Falsch! Richtig: Guten Tag')">A) Guten Morgen</button>
+    <button class="quiz-btn" onclick="alert('Richtig! ✅')">B) Guten Tag</button>
+    <button class="quiz-btn" onclick="alert('Falsch! Richtig: Guten Tag')">C) Guten Abend</button>
+  </div>
+  
+  <div class="card">
+    <p><strong>2.</strong> Wo kauft man Brot?</p>
+    <button class="quiz-btn" onclick="alert('Falsch! Richtig: Bäckerei')">A) Supermarkt</button>
+    <button class="quiz-btn" onclick="alert('Richtig! ✅')">B) Bäckerei</button>
+    <button class="quiz-btn" onclick="alert('Falsch! Richtig: Bäckerei')">C) Apotheke</button>
+  </div>
+  
+  <div class="card">
+    <p><strong>3.</strong> "Die Bewerbung" bedeutet?</p>
+    <button class="quiz-btn" onclick="alert('Richtig! ✅')">A) Заява про прийом</button>
+    <button class="quiz-btn" onclick="alert('Falsch! Richtig: Заява про прийом')">B) Резюме</button>
+    <button class="quiz-btn" onclick="alert('Falsch! Richtig: Заява про прийом')">C) Співбесіда</button>
+  </div>
+  
+  <h3>Lösungen</h3>
+  <p>1-B, 2-B, 3-A</p>
+</section>
+
+<section id="glossar">
+  <h2>📚 Glossar (50 Wörter)</h2>
+  
+  <table style="width:100%; border-collapse: collapse;">
+    <tr style="background: var(--card-bg);">
+      <th style="padding:10px; text-align:left;">Deutsch</th>
+      <th style="padding:10px; text-align:left;">Ukrainsich</th>
+    </tr>
+    <tr><td style="padding:8px;">die Stadt</td><td>місто</td></tr>
+    <tr style="background:var(--card-bg);"><td style="padding:8px;">der Bahnhof</td><td>вокзал</td></tr>
+    <tr><td style="padding:8px;">die Haltestelle</td><td>зупинка</td></tr>
+    <tr style="background:var(--card-bg);"><td style="padding:8px;">das Ticket</td><td>квиток</td></tr>
+    <tr><td style="padding:8px;">die Fahrkarte</td><td>проїзний</td></tr>
+    <tr style="background:var(--card-bg);"><td style="padding:8px;">der Fahrplan</td><td>розклад</td></tr>
+  </table>
+  
+  <br>
+  <p><em>+ 44 weitere Wörter im PDF</em></p>
+</section>
+
+</div>
+
+<footer>
+  <h3 style="color: var(--gold); margin-bottom: 20px;">Deutsch lernen in Mannheim</h3>
+  <p style="margin-bottom: 30px;">© 2026 German Cards Ukraine</p>
+  
+  <div style="border: 1px solid var(--gold); padding: 30px; margin: 30px auto; max-width: 400px; border-radius: 3px;">
+    <p style="font-size: 1.3em; margin-bottom: 15px;">Premium Edition</p>
+    <p style="font-size: 2.5em; color: var(--gold); font-weight: bold;">9,99€</p>
+    <p style="color: var(--text-muted); margin-bottom: 20px;">Inkl. Audio & Übungen</p>
+    <a href="#" class="cta-btn">Jetzt kaufen</a>
+  </div>
+  
+  <a href="https://t.me/germancardsua" class="cta-btn" style="background: transparent; border: 1px solid var(--gold); color: var(--gold);">Telegram</a>
+  <a href="#" class="cta-btn" style="background: transparent; border: 1px solid var(--gold); color: var(--gold);">Vorschau PDF</a>
+  <br><br>
+  <p><small>Kostenlose Updates | Feedback: t.me/germancardsua</small></p>
+</footer>
+
+</body>
+</html>

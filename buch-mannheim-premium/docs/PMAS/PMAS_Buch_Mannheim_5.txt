@@ -1,0 +1,338 @@
+# P-M-A-S — Buch Mannheim Illustrationen (Runs 41-50)
+
+---
+
+## Durchlauf 41: Illustrationsstil
+**Problem:** Welcher Illustrationsstil?
+
+**FITNESS:**
+- F1: Zielgruppe ansprechen — maximieren
+- F2: Produktionsaufwand — minimieren
+- F3: Wiedererkennung — maximieren
+
+**VARIANTEN:**
+| A | Vektor / Flat Design |
+| B | Aquarell |
+| C | Fotorealistisch |
+| D | Comic / Cartoon |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+
+**GEWINNER:** A (Vektor/Flat)  
+**KREUZUNG:** A + D = "Vektor mit cartoonigen Akzenten"
+
+---
+
+## Durchlauf 42: Farbpalette
+**Problem:** Welche Farbpalette?
+
+**FITNESS:**
+- F1: Stimmung — maximieren
+- F2: Konsistenz — maximieren
+- F3: Druckkosten — minimieren
+
+**VARIANTEN:**
+| A | Muted + Deutsch Flag Accents |
+| B | Bunt / Poppig |
+| C | Monochrom |
+| D | Naturfarben |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Muted + Flag)  
+**KREUZUNG:** A + D = "Muted Natur + Flag Akzente"
+
+---
+
+## Durchlauf 43: Cover-Illustration
+**Problem:** Cover-Design?
+
+**FITNESS:**
+- F1: Aufmerksamkeit — maximieren
+- F2: Information — maximieren
+- F3: Einfachheit — minimieren
+
+**VARIANTEN:**
+| A | Mannheim Schloss bei Nacht |
+| B | Stadtkarte Mannheim |
+| C | Typisches Quadrat |
+| D | Buch + Flagge |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+
+**GEWINNER:** A (Schloss bei Nacht)  
+**KREUZUNG:** A + C = "Schloss + Quadrate Silhouette"
+
+---
+
+## Durchlauf 44: Illustrationen pro Seite
+**Problem:** Wie viele Illustrationen?
+
+**FITNESS:**
+- F1: Lernerlebnis — maximieren
+- F2: Kosten — minimieren
+- F3: Produktionszeit — minimieren
+
+**VARIANTEN:**
+| A | Jede Seite |
+| B | Alle 2 Seiten |
+| C | Alle 4 Seiten |
+| D | Nur Cover |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| B | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| C | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (Alle 2 Seiten = ~15 Illus)  
+**KREUZUNG:** B + C = "Alle 2 Seiten + Highlights öfter"
+
+---
+
+## Durchlauf 45: Bildunterschriften
+**Problem:** Bildunterschriften?
+
+**FITNESS:**
+- F1: Verständlichkeit — maximieren
+- F2: Platz — minimieren
+- F3: Mehrsprachig — maximieren
+
+**VARIANTEN:**
+| A | Deutsch + Ukr |
+| B | Nur Deutsch |
+| C | Keine |
+| D | Nur Ukr |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+
+**GEWINNER:** A (Deutsch + Ukr)  
+**KREUZUNG:** A + B = "Beide + nur DE falls Platz"
+
+---
+
+## Durchlauf 46: Illustrationen generieren
+**Problem:** Wie generieren?
+
+**FITNESS:**
+- F1: Qualität — maximieren
+- F2: Kosten — minimieren
+- F3: Zeit — minimieren
+
+**VARIANTEN:**
+| A | Midjourney |
+| B | DALL-E |
+| C | Stable Diffusion |
+| D | Designer beauftragen |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| B | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 5+5+5=15 | 4+4+4=12 | 3+3+3=9 | 36 |
+
+**GEWINNER:** A (Midjourney)  
+**KREUZUNG:** A + C = "Midjourney + SD als Backup"
+
+---
+
+## Durchlauf 47: KI-Prompts optimieren
+**Problem:** Prompts style?
+
+**FITNESS:**
+- F1: Konsistenz — maximieren
+- F2: Qualität — maximieren
+- F3: Einfachheit — minimieren
+
+**VARIANTEN:**
+| A | Detailliert mit style flags |
+| B | Simpel |
+| C | Mit Referenzbild |
+| D | Iterativ |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| D | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+
+**GEWINNER:** A (Detailliert)  
+**KREUZUNG:** A + D = "Detailliert + iterativ verfeinern"
+
+---
+
+## Durchlauf 48: Illustrations-Liste
+**Problem:** Was illustrieren?
+
+**FITNESS:**
+- F1: Relevanz — maximieren
+- F2: Abdeckung — maximieren
+- F3: Aufwand — minimieren
+
+**VARIANTEN:**
+| A | 15 Landmarken |
+| B | 10 Landmarken |
+| C | Abstrakt |
+| D | Mix landmarks + Szenen |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| C | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+| D | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+
+**GEWINNER:** D (Mix)  
+**KREUZUNG:** D + A = "Mix + mehr Landmarken"
+
+---
+
+## Durchlauf 49: Dateiformat
+**Problem:** Bildformat?
+
+**FITNESS:**
+- F1: Qualität — maximieren
+- F2: Dateigröße — minimieren
+- F3: Kompatibilität — maximieren
+
+**VARIANTEN:**
+| A | SVG |
+| B | PNG |
+| C | JPG |
+| D | WebP |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 9+8+8=25 | 7+6+6=19 | 5+5+4=14 | **58** |
+| B | 8+7+7=22 | 6+5+5=16 | 5+4+4=13 | 51 |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+
+**GEWINNER:** A (SVG - Vektor!)  
+**KREUZUNG:** A + B = "SVG + PNG für Upload"
+
+---
+
+## Durchlauf 50: Gesamtqualität sichern
+**Problem:** Qualitätskontrolle?
+
+**FITNESS:**
+- F1: Konsistenz — maximieren
+- F2: Fehler — minimieren
+- F3: Zeit — minimieren
+
+**VARIANTEN:**
+| A | Self-Review |
+| B | Beta-Tester |
+| C | Professionelles Review |
+| D | Keine |
+
+**STRESS-TEST:**
+| Var | S1 | S2 | S3 | Σ |
+|-----|----|----|----|---|
+| A | 8+7+8=23 | 6+5+6=17 | 5+4+5=14 | 54 |
+| B | 9+8+9=26 | 7+6+7=20 | 5+5+5=15 | **61** |
+| C | 7+7+7=21 | 5+5+5=15 | 4+4+4=12 | 48 |
+| D | 6+6+6=18 | 5+5+4=14 | 4+4+3=11 | 43 |
+
+**GEWINNER:** B (Beta-Tester)  
+**KREUZUNG:** B + A = "Beta-Tester + Self-Review"
+
+---
+
+## ZUSAMMENFASSUNG — Runs 41-50
+
+| Runde | Problem | Gewinner | Kreuzung |
+|-------|---------|----------|----------|
+| 41 | Stil | A (Vektor) | Vektor + Cartoon |
+| 42 | Farben | A (Muted+Flag) | Muted + Natur |
+| 43 | Cover | A (Schloss Nacht) | Schloss + Quadrate |
+| 44 | Häufigkeit | B (Alle 2 Seiten) | ~15 Illustrationen |
+| 45 | Captions | A (DE+Ukr) | Beide Sprachen |
+| 46 | Generieren | A (Midjourney) | MJ + SD |
+| 47 | Prompts | A (Detailliert) | Detailliert + iterativ |
+| 48 | Inhalt | D (Mix) | Mix + mehr Landmarken |
+| 49 | Format | A (SVG) | SVG + PNG |
+| 50 | QC | B (Beta) | Beta + Self-Review |
+
+---
+
+## ILLUSTRATION SPECS
+
+**Stil:**
+- Vektor / Flat Design
+- Muted Farben + Deutsch Flag Akzente
+- Cartoon-Akzenten erlaubt
+
+**Cover:**
+- Mannheim Schloss bei Nacht
+- + Quadrate Silhouette
+
+**Umfang:**
+- ~15 Illustrationen (alle 2 Seiten)
+- Mix aus Landmarken + Szenen
+
+**Beschriftung:**
+- Deutsch + Ukrainsch
+
+**Tools:**
+- Midjourney für Generierung
+- SVG Format (Vektor)
+- PNG als Backup
+
+**Qualität:**
+- Beta-Tester Review
+- Self-Review davor
+
+---
+
+## PROMPT TEMPLATE FÜR MIDJOURNEY
+
+```
+[Landmark/Szene] in Mannheim, flat vector illustration, muted color palette, 
+german flag accent colors, clean design, minimalist, --ar 4:3 --v 6 
+--style flat --no photorealistic
+```
+
+**Beispiel Cover:**
+```
+Mannheim Palace at night, silhouette, flat vector illustration, 
+dark blue sky, warm lights in windows, german flag colors accent, 
+minimalist, --ar 1:1 --v 6 --style flat
+```
+
+---
+
+*Erstellt: 07.03.2026*
