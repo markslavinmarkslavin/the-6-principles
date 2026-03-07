@@ -1,0 +1,460 @@
+% ============================================================
+% DEUTSCH LERNEN IN MANNHEIM — Premium Lernbuch
+% LaTeX Template — KDP-ready (6x9 Zoll, 300 DPI)
+% ============================================================
+\documentclass[12pt,twoside,openright]{memoir}
+
+% --- PAKETE ---
+\usepackage{fontspec}           % Professionelle Fonts (XeLaTeX)
+\usepackage{microtype}          % Optimale Typografie, Silbentrennung
+\usepackage{geometry}           % Seitenlayout
+\usepackage{graphicx}           % KI-Bilder importieren
+\usepackage{xcolor}             % Farben (Gold, Schwarz)
+\usepackage{titlesec}           % Kapitelüberschriften anpassen
+\usepackage{hyperref}           % Interaktives Inhaltsverzeichnis
+\usepackage{polyglossia}        % Mehrsprachig (DE + UA)
+\usepackage{multicol}           % Zweispaltig für Glossar
+\usepackage{booktabs}           % Schöne Tabellen
+\usepackage{enumitem}           % Listen anpassen
+\usepackage{tcolorbox}          % Bunte Lernkästen
+\usepackage{fancyhdr}           % Kopf-/Fußzeilen
+
+% --- SEITENLAYOUT (Amazon KDP Standard: 6x9 Zoll) ---
+\geometry{
+  paperwidth=6in,
+  paperheight=9in,
+  inner=2.5cm,
+  outer=2cm,
+  top=2.5cm,
+  bottom=2.5cm,
+  includeheadfoot
+}
+
+% --- FARBEN ---
+\definecolor{gold}{RGB}{212, 175, 55}
+\definecolor{darkbg}{RGB}{26, 26, 26}
+\definecolor{lightgold}{RGB}{201, 162, 39}
+\definecolor{softblue}{RGB}{70, 130, 180}
+\definecolor{warmgray}{RGB}{245, 243, 238}
+
+% --- FONTS ---
+\setmainfont{Georgia}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+
+% --- SPRACHEN ---
+\setmainlanguage{german}
+\setotherlanguage{ukrainian}
+
+% --- HYPERREF KONFIGURATION ---
+\hypersetup{
+  colorlinks=true,
+  linkcolor=gold,
+  urlcolor=softblue,
+  pdftitle={Deutsch lernen in Mannheim},
+  pdfauthor={German Cards Ukraine},
+  pdfsubject={Deutsch Lernbuch für Anfänger},
+  pdfkeywords={Deutsch, Mannheim, Ukraine, Anfänger, Lernbuch}
+}
+
+% --- KAPITELÜBERSCHRIFTEN ---
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily\Huge\bfseries\color{gold}}
+  {\chaptertitlename\ \thechapter}
+  {20pt}
+  {\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries\color{gold}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\sffamily\large\bfseries}
+  {\thesubsection}{1em}{}
+
+% --- LERNKÄSTEN ---
+\tcbuselibrary{skins,breakable}
+
+\newtcolorbox{lernkasten}[1][]{
+  colback=warmgray,
+  colframe=gold,
+  fonttitle=\sffamily\bfseries,
+  title=#1,
+  boxrule=1.5pt,
+  arc=4pt
+}
+
+\newtcolorbox{uebungskasten}[1][]{
+  colback=white,
+  colframe=softblue,
+  fonttitle=\sffamily\bfseries,
+  title=#1,
+  boxrule=1.5pt,
+  arc=4pt
+}
+
+\newtcolorbox{glossarkasten}[1][]{
+  colback=warmgray,
+  colframe=lightgold,
+  fonttitle=\sffamily\bfseries\large,
+  title=#1,
+  boxrule=1pt
+}
+
+% --- KOPF- UND FUSSZEILEN ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\sffamily\color{lightgold}Deutsch lernen in Mannheim}
+\fancyhead[RO]{\small\sffamily\color{lightgold}\leftmark}
+\fancyfoot[C]{\small\sffamily\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{gold}\leaders\hrule height \headrulewidth\hfill}}
+
+% --- ZEILENABSTAND ---
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{1.5em}
+
+% ============================================================
+% DOKUMENT BEGINNT
+% ============================================================
+\begin{document}
+
+% --- TITELSEITE ---
+\begin{titlingpage}
+  \begin{center}
+    \vspace*{2cm}
+
+    % Logo / KI-Bild Cover
+    % \includegraphics[width=0.8\textwidth]{images/cover.png}
+
+    \vspace{1cm}
+    {\color{gold}\rule{\linewidth}{3pt}}
+    \vspace{0.5cm}
+
+    {\fontsize{36}{42}\selectfont\sffamily\bfseries\color{darkbg}
+    DEUTSCH LERNEN\\IN MANNHEIM}
+
+    \vspace{0.5cm}
+    {\color{gold}\rule{\linewidth}{3pt}}
+    \vspace{1cm}
+
+    {\Large\sffamily Premium Lernbuch für Anfänger}
+
+    \vspace{0.3cm}
+    {\large\sffamily\color{lightgold}З українськими перекладами}
+
+    \vfill
+
+    {\sffamily\large German Cards Ukraine}\\
+    {\sffamily\small\color{lightgold}Telegram: @germancardsua}
+
+    \vspace{1cm}
+  \end{center}
+\end{titlingpage}
+
+% --- INHALTSVERZEICHNIS ---
+\tableofcontents
+\newpage
+
+% ============================================================
+% KAPITEL 1: EINLEITUNG
+% ============================================================
+\chapter{Willkommen in Mannheim!}
+
+% Kapitel-Illustration (KI-Bild)
+\begin{figure}[h]
+  \centering
+  % \includegraphics[width=0.7\textwidth]{images/mannheim-wasserturm.png}
+  \fbox{\rule{0pt}{4cm}\rule{8cm}{0pt}} % Platzhalter
+  \caption{Der Wasserturm — das Wahrzeichen Mannheims}
+\end{figure}
+
+\begin{lernkasten}[Herzlich willkommen! Ласкаво просимо!]
+Dieses Buch wurde speziell für Menschen aus der Ukraine entwickelt, die in Mannheim leben und Deutsch lernen möchten. Jede Lektion enthält:
+\begin{itemize}[nosep]
+  \item Wichtige Wörter auf Deutsch
+  \item Ukrainische Übersetzungen
+  \item Typische Situationen aus dem Alltag
+  \item Übungen zum Üben
+\end{itemize}
+\end{lernkasten}
+
+\section{Wie nutze ich dieses Buch?}
+
+Jedes Kapitel ist aufgebaut wie ein echter Schritt in deinem neuen Leben in Mannheim. Du lernst die Sprache so, wie sie wirklich gebraucht wird — nicht aus der Theorie, sondern aus dem echten Alltag.
+
+\vspace{1em}
+\begin{uebungskasten}[Dein erstes Deutsch]
+  Sag laut nach: \textbf{``Guten Morgen!''} \\
+  Auf Ukrainisch: \textit{Доброго ранку!}
+\end{uebungskasten}
+
+% ============================================================
+% KAPITEL 2: GRUNDLAGEN
+% ============================================================
+\chapter{Grundlagen — Begrüßung und Höflichkeit}
+
+\begin{figure}[h]
+  \centering
+  \fbox{\rule{0pt}{3cm}\rule{8cm}{0pt}} % Platzhalter für KI-Bild
+  \caption{Grüßen auf Deutsch}
+\end{figure}
+
+\section{Grüßen und Verabschieden}
+
+\begin{lernkasten}[Wichtige Phrasen / Важливі фрази]
+\begin{tabular}{p{5cm} p{5cm}}
+\toprule
+\textbf{Deutsch} & \textbf{Ukrainisch} \\
+\midrule
+Guten Morgen! & Доброго ранку! \\
+Guten Tag! & Доброго дня! \\
+Guten Abend! & Доброго вечора! \\
+Auf Wiedersehen! & До побачення! \\
+Tschüss! & Бувай! \\
+Bitte & Будь ласка \\
+Danke & Дякую \\
+Danke schön! & Дуже дякую! \\
+Entschuldigung & Вибачте \\
+Wie geht es Ihnen? & Як ви почуваєтеся? \\
+Gut, danke! & Добре, дякую! \\
+\bottomrule
+\end{tabular}
+\end{lernkasten}
+
+\section{Sich vorstellen}
+
+\begin{lernkasten}[Ich stelle mich vor / Я представляюся]
+\begin{tabular}{p{5cm} p{5cm}}
+\toprule
+\textbf{Deutsch} & \textbf{Ukrainisch} \\
+\midrule
+Wie heißen Sie? & Як вас звати? \\
+Ich heiße \ldots & Мене звуть \ldots \\
+Woher kommen Sie? & Звідки ви? \\
+Ich komme aus der Ukraine. & Я з України. \\
+Ich wohne in Mannheim. & Я живу у Мангаймі. \\
+\bottomrule
+\end{tabular}
+\end{lernkasten}
+
+\begin{uebungskasten}[Übung 1: Stell dich vor!]
+Fülle die Lücken aus: \\[0.5em]
+Ich heiße \underline{\hspace{4cm}}. \\
+Ich komme aus \underline{\hspace{4cm}}. \\
+Ich wohne in \underline{\hspace{4cm}}.
+\end{uebungskasten}
+
+% ============================================================
+% KAPITEL 3: ALLTAG
+% ============================================================
+\chapter{Alltag — Supermarkt, Apotheke, Bank}
+
+\section{Im Supermarkt}
+
+\begin{lernkasten}[Einkaufen / Покупки]
+\begin{tabular}{p{5cm} p{5cm}}
+\toprule
+\textbf{Deutsch} & \textbf{Ukrainisch} \\
+\midrule
+Wo ist der Supermarkt? & Де супермаркет? \\
+Ich suche \ldots & Я шукаю \ldots \\
+Was kostet das? & Скільки це коштує? \\
+Das ist zu teuer. & Це занадто дорого. \\
+Ich nehme das. & Я беру це. \\
+Kann ich mit Karte zahlen? & Можна оплатити карткою? \\
+Die Quittung, bitte! & Чек, будь ласка! \\
+\bottomrule
+\end{tabular}
+\end{lernkasten}
+
+\section{In der Apotheke}
+
+\begin{lernkasten}[Apotheke / Аптека]
+\begin{tabular}{p{5cm} p{5cm}}
+\toprule
+\textbf{Deutsch} & \textbf{Ukrainisch} \\
+\midrule
+Ich brauche ein Medikament. & Мені потрібні ліки. \\
+Ich habe Kopfschmerzen. & У мене болить голова. \\
+Ich habe Fieber. & У мене температура. \\
+Haben Sie etwas gegen \ldots? & Чи є у вас щось від \ldots? \\
+Ich brauche ein Rezept. & Мені потрібен рецепт. \\
+\bottomrule
+\end{tabular}
+\end{lernkasten}
+
+\section{Bei der Bank}
+
+\begin{lernkasten}[Bank / Банк]
+\begin{tabular}{p{5cm} p{5cm}}
+\toprule
+\textbf{Deutsch} & \textbf{Ukrainisch} \\
+\midrule
+Ich möchte ein Konto eröffnen. & Я хочу відкрити рахунок. \\
+Ich brauche eine Überweisung. & Мені потрібен переказ. \\
+Was sind die Gebühren? & Які комісії? \\
+Ich habe meinen Ausweis. & У мене є посвідчення. \\
+\bottomrule
+\end{tabular}
+\end{lernkasten}
+
+% ============================================================
+% KAPITEL 4: ARBEIT
+% ============================================================
+\chapter{Arbeit — Bewerbung und Vorstellungsgespräch}
+
+\section{Bewerbungsunterlagen}
+
+\begin{lernkasten}[Wichtige Dokumente / Важливі документи]
+\begin{itemize}[nosep]
+  \item \textbf{Lebenslauf (CV)} — Резюме
+  \item \textbf{Anschreiben} — Супровідний лист
+  \item \textbf{Zeugnisse} — Атестати / Дипломи
+  \item \textbf{Referenzen} — Рекомендації
+\end{itemize}
+\end{lernkasten}
+
+\section{Im Vorstellungsgespräch}
+
+\begin{lernkasten}[Typische Fragen / Типові запитання]
+\begin{tabular}{p{5cm} p{5cm}}
+\toprule
+\textbf{Deutsch} & \textbf{Ukrainisch} \\
+\midrule
+Erzählen Sie von sich. & Розкажіть про себе. \\
+Was sind Ihre Stärken? & Які ваші сильні сторони? \\
+Warum wollen Sie hier arbeiten? & Чому ви хочете тут працювати? \\
+Wann können Sie anfangen? & Коли ви можете розпочати? \\
+Was sind Ihre Gehaltsvorstellungen? & Які ваші зарплатні очікування? \\
+\bottomrule
+\end{tabular}
+\end{lernkasten}
+
+\begin{uebungskasten}[Übung: Bewerbungsgespräch]
+Übe mit einem Partner. Einer fragt, der andere antwortet. \\
+Wechselt nach 5 Minuten die Rollen!
+\end{uebungskasten}
+
+% ============================================================
+% KAPITEL 5: ÜBUNGEN & QUIZ
+% ============================================================
+\chapter{Übungen \& Quiz}
+
+\section{Quiz 1: Was sagt man?}
+
+\begin{uebungskasten}[Wähle die richtige Antwort:]
+\begin{enumerate}[nosep]
+  \item Wie antwortest du auf ``Wie geht es Ihnen?''\\
+    a) Danke schön! \quad b) Gut, danke! \quad c) Auf Wiedersehen!
+
+  \item Was bedeutet ``Entschuldigung''?\\
+    a) Дякую \quad b) Вибачте \quad c) Будь ласка
+
+  \item Wie fragt man nach dem Preis?\\
+    a) Was kostet das? \quad b) Ich nehme das. \quad c) Wo ist das?
+\end{enumerate}
+\end{uebungskasten}
+
+\section{Quiz 2: Übersetze ins Deutsche}
+
+\begin{uebungskasten}[Ukrainisch → Deutsch:]
+\begin{enumerate}[nosep]
+  \item Доброго ранку! → \underline{\hspace{5cm}}
+  \item Дякую! → \underline{\hspace{5cm}}
+  \item Де супермаркет? → \underline{\hspace{5cm}}
+  \item У мене болить голова. → \underline{\hspace{5cm}}
+\end{enumerate}
+\end{uebungskasten}
+
+\section{Antworten / Відповіді}
+
+\begin{lernkasten}[Lösungen]
+Quiz 1: 1b, 2b, 3a \\[0.3em]
+Quiz 2:
+\begin{enumerate}[nosep]
+  \item Guten Morgen!
+  \item Danke!
+  \item Wo ist der Supermarkt?
+  \item Ich habe Kopfschmerzen.
+\end{enumerate}
+\end{lernkasten}
+
+% ============================================================
+% KAPITEL 6: GLOSSAR
+% ============================================================
+\chapter{Glossar — Deutsch / Ukrainisch}
+
+\begin{glossarkasten}[A–G]
+\begin{multicols}{2}
+\begin{description}[nosep,leftmargin=0pt]
+  \item[Apotheke] Аптека
+  \item[Arbeit] Робота
+  \item[Arzt] Лікар
+  \item[Auf Wiedersehen] До побачення
+  \item[Ausweise] Документи
+  \item[Bank] Банк
+  \item[Bewerbung] Заява про прийом на роботу
+  \item[Bitte] Будь ласка
+  \item[Danke] Дякую
+  \item[Deutsch] Німецька мова
+  \item[Einkaufen] Покупки
+  \item[Entschuldigung] Вибачте
+  \item[Fieber] Температура
+  \item[Geld] Гроші
+  \item[Gespräch] Розмова
+\end{description}
+\end{multicols}
+\end{glossarkasten}
+
+\begin{glossarkasten}[H–Z]
+\begin{multicols}{2}
+\begin{description}[nosep,leftmargin=0pt]
+  \item[Haus] Будинок
+  \item[Hilfe] Допомога
+  \item[Karte] Картка
+  \item[Kopfschmerzen] Головний біль
+  \item[Krankenhaus] Лікарня
+  \item[Lebenslauf] Резюме
+  \item[Mannheim] Мангайм
+  \item[Medikament] Ліки
+  \item[Rechnung] Рахунок
+  \item[Rezept] Рецепт
+  \item[Supermarkt] Супермаркет
+  \item[Überweisung] Переказ
+  \item[Wohnung] Квартира
+  \item[Zeugnis] Диплом / Атестат
+\end{description}
+\end{multicols}
+\end{glossarkasten}
+
+% ============================================================
+% SCHLUSS
+% ============================================================
+\chapter*{Viel Erfolg!}
+\addcontentsline{toc}{chapter}{Viel Erfolg!}
+
+\begin{center}
+  {\color{gold}\rule{\linewidth}{2pt}}
+  \vspace{1cm}
+
+  {\Large\sffamily\bfseries Glückwunsch! Вітаємо!}
+
+  \vspace{0.5cm}
+  Du hast das Buch durchgearbeitet. \\
+  Jetzt bist du bereit für den Alltag in Mannheim!
+
+  \vspace{1cm}
+  {\color{gold}\rule{\linewidth}{2pt}}
+
+  \vspace{1cm}
+  \textbf{Kontakt / Підтримка:}\\
+  Telegram: @germancardsua\\
+
+  \vspace{0.5cm}
+  \textit{Deutsch lernen in Mannheim — Premium Edition}\\
+  \textit{© 2026 German Cards Ukraine. Alle Rechte vorbehalten.}
+\end{center}
+
+\end{document}
