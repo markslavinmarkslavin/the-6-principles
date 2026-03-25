@@ -91,6 +91,15 @@
 Результат:   cascade planning, 6-phase visibility
 ```
 
+#### [S09] Ошибка инструмента → существующая стратегия → адаптация (25.03.2026)
+```
+Ошибка:     benchmark.js упал → традиционный path = "ошибка, что делать?"
+Стратегия:  вместо wait-for-instruction, применить S01 "убрать посредника" + S02
+Результат:  система self-healing, адаптируется автоматически при отказе инструмента
+Применять:  когда инструмент/процесс падает → check existing strategie first
+Значение:   first autonomous ACE cycle (GENERATOR → REFLECTOR → CURATOR complete)
+```
+
 ---
 
 ### ❌ Ошибки которые повторялись
