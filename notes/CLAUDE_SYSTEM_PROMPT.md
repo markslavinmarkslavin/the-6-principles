@@ -100,6 +100,15 @@
 Значение:   first autonomous ACE cycle (GENERATOR → REFLECTOR → CURATOR complete)
 ```
 
+#### [S10] Критическая задача → S02 + S07 → финансовая стабильность (25.03.2026)
+```
+Пример:     TK ratenzahlung (1.398€ OVERDUE 20 дней)
+Стратегия:  S02 (данные→вывод) + S07 (MONEY_HORIZON фильтр)
+Результат:  Ratenzahlung договор на 6 месяцев = 233€/месяц = +207€ эффективный буфер
+Применять:  для CRITICAL проблем (Schufa-риск, финансовый дефицит, deadline urgent)
+Значение:   first real-world production test of ACE Framework (GENERATOR→REFLECTOR→CURATOR)
+```
+
 ---
 
 ### ❌ Ошибки которые повторялись
