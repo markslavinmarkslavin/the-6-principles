@@ -161,6 +161,15 @@
 Применять:  S02 (Данные → вывод) = сначала читаешь что есть, потом меняешь
 ```
 
+#### [E10] Git index.lock на Windows → два процесса одновременно (25.03.2026)
+```
+Ошибка:     fatal: Unable to create '.git/index.lock': File exists
+Причина:    Background git процесс не завершился, новый пытается писать
+Попытка 1:  rm .git/index.lock → "Device or resource busy" ❌
+Лечение:    pkill -f "git commit" + sleep 2 + rm -f .git/index.lock + commit
+Применять:  при любом git lock error на Windows (S01: убрать посредника)
+```
+
 ---
 
 ## КОНТЕКСТ (читать в этом порядке)
