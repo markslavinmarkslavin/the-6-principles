@@ -8,7 +8,7 @@ Created by [Mark Slavin](mailto:mark.a.slavin@gmail.com)
 
 ## What is this?
 
-The 6 Principles is a universal methodology for analyzing and solving complex problems. It has been validated by successfully predicting the structure of mathematical proofs for **3 Millennium Prize problems**.
+The 6 Principles is a universal methodology for analyzing and solving complex problems. When applied to three Millennium Prize problems, the analysis revealed bottlenecks and key inequalities that matched what later turned out to be in published proofs.
 
 ## The 6 Principles
 
@@ -19,22 +19,22 @@ The 6 Principles is a universal methodology for analyzing and solving complex pr
 | 3 | **BOTTLENECK** | Find the one place where it actually fails |
 | 4 | **CONCRETENESS** | Write the exact inequality that must be proven |
 | 5 | **CONTINUUM** | Understand behavior at the limit |
-| 6 | **SPECTRAL UNIFORMITY** | The bridge between evidence and proof |
+| 6 | **SPECTRAL UNIFORMITY** | The bridge between evidence and solution |
 
-## Validated Results
+## What We Discovered
 
 ### Yang-Mills Mass Gap (2025)
-- **Predicted**: Continuum limit a→0 is the bottleneck
-- **Required inequality**: `m(a) ≥ c × m(a/2)`
-- **Then proven by**: D.C. Jacobsen (arXiv:2506.00284)
+- **Our analysis**: Identified continuum limit a→0 as bottleneck
+- **Key inequality**: `m(a) ≥ c × m(a/2)`
+- **Later found**: Same approach published by D.C. Jacobsen (arXiv:2506.00284)
 
 ### Navier-Stokes Global Regularity (2026)
-- **Predicted**: Supercritical energy in 3D as bottleneck
-- **Then proven by**: Myong-Hwan Ri (arXiv:2601.15685)
+- **Our analysis**: Supercritical energy in 3D as bottleneck
+- **Later found**: Same solution by Myong-Hwan Ri (arXiv:2601.15685)
 
 ### P vs NP (2025)
-- **Predicted**: Self-referential nature of computation as bottleneck
-- **Then proven by**: Ben Goertzel (arXiv:2510.08814)
+- **Our analysis**: Self-referential nature of computation as bottleneck
+- **Later found**: Similar approach by Ben Goertzel (arXiv:2510.08814)
 
 ## Tools
 
@@ -51,7 +51,7 @@ node tools/tool-quality-score.js
 
 ## Applications
 
-- **Mathematics/Physics**: Solving unsolved problems
+- **Mathematics/Physics**: Analyzing unsolved problems
 - **Software**: Bug bottleneck identification  
 - **Business**: Strategic decision making
 - **Medicine**: Diagnosis criteria
@@ -59,12 +59,11 @@ node tools/tool-quality-score.js
 
 ## Demo
 
-Visit the landing page: [mark-slavin.github.io/the-6-principles](https://mark-slavin.github.io/the-6-principles)
+Visit: https://markslavinmarkslavin.github.io/the-6-principles/
 
 ## Contact
 
 - Email: mark.a.slavin@gmail.com
-- Use the method for your problem
 
 ## License
 
