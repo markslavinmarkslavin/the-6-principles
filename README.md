@@ -38,7 +38,7 @@ A systematic methodology for solving hard problems.
 - **85%** Self-Speed Improvement (3 years, 50+ cycles)
 - **86%** Benchmark Score
 - **124** Tools optimized in personal Life OS
-- Validated on Millennium Problems (Yang-Mills, Navier-Stokes, P vs NP)
+- Tested on Millennium Problems (Yang-Mills, Navier-Stokes, P vs NP) — identified same bottlenecks as published solutions (not the solutions themselves)
 
 ## Tools
 
