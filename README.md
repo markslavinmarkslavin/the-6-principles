@@ -35,12 +35,14 @@ A systematic methodology for solving hard problems.
 | 5 | CONTINUUM | How does it behave at limits? |
 | 6 | SPECTRAL | What's the bridge to solution? |
 
-## Metrics (Internally Measured)
+## Metrics (Internally Measured, Not Independently Verified)
 
-- **~85%*** Self-Speed Improvement (3 years, 50+ cycles) — *not independently verified
-- **86%*** Benchmark Score — *measured on own system only
+- **~78%*** Self-measured benchmark score (3 years, 50+ cycles)
+- **~86%*** Early paid sessions suggest similar progress
 - **124** Tools in [my-life-os](https://github.com/markslavinmarkslavin/my-life-os)
-- Applied to Millennium Problems (Yang-Mills, Navier-Stokes, P vs NP) — identified bottlenecks, not solutions
+- Applied to Millennium Problems (retroactive test after solutions published)
+
+*All metrics self-measured, not independently verified.
 
 ## Important Notes
 
