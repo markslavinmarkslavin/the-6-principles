@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The 6 Principles - A Systematic Approach to Solving Hard Problems</title>
-  <meta name="description" content="A methodology that optimizes itself. Proved 85% speed improvement via self-evolution. Identifies bottleneck structure in complex problems.">
+  <meta name="description" content="A methodology for finding bottlenecks in complex problems. Self-measured 86% benchmark score.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Plausible Analytics (DSGVO-konform) -->
-  <!-- <script defer data-domain="the-6-principles.vercel.app" src="https://plausible.io/js/script.js"></script> -->
+  <!-- <script defer data-domain="the-6-principles.github.io" src="https://plausible.io/js/script.js"></script> -->
   <style>
     :root {
       --primary: #2563eb;
@@ -316,7 +317,15 @@
       margin-bottom: 20px;
     }
     
-    footer {
+    @media (max-width: 600px) {
+      h1 { font-size: 1.75rem; }
+      h2 { font-size: 1.25rem; }
+      .hero { padding: 40px 0; }
+      .section { padding: 40px 0; }
+      .btn { padding: 12px 24px; font-size: 0.9rem; }
+      .principles-grid { grid-template-columns: 1fr; }
+      .applications { grid-template-columns: repeat(2, 1fr); }
+    }
       background: var(--dark);
       color: white;
       text-align: center;
@@ -483,24 +492,24 @@
       
       <div class="results">
         <div class="result-card">
-          <h4>85%</h4>
-          <p>Self-Speed Improvement via genetic optimization (50+ cycles, 3 years)</p>
+          <h4>~85%*</h4>
+          <p>Self-Speed Improvement via self-measured optimization (50+ cycles, 3 years). *Based on internal benchmark only.</p>
         </div>
         <div class="result-card">
-          <h4>86%</h4>
-          <p>Benchmark Score: Speed + F1 + F2 + K-Context composite</p>
+          <h4>86%*</h4>
+          <p>Benchmark Score: Speed + F1 + F2 + K-Context composite. *Measured on own system, not independently verified.</p>
         </div>
         <div class="result-card">
           <h4>124</h4>
-          <p>Tools built & optimized in my personal life OS</p>
+          <p>Tools in personal Life OS <a href="https://github.com/markslavinmarkslavin/my-life-os" style="color:#2563eb;">[source]</a></p>
         </div>
       </div>
       
-      <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:#64748b;"><em>Based on 3 years of self-optimization of my own digital life system</em></p>
+      <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:#64748b;"><em>Based on 3 years of self-optimization of my own digital life system. Metrics measured internally, not independently verified.</em></p>
       
       <div style="background:linear-gradient(135deg,#fef3c7,#fef9c3);border-radius:12px;padding:24px;margin-top:32px;border-left:4px solid #f59e0b;">
-        <h4 style="color:#92400e;margin-bottom:12px;">🎯 Tested on Millennium Problems</h4>
-        <p style="color:#78350f;">Applied the 6 Principles to analyze Yang-Mills, Navier-Stokes, and P vs. NP. Identified the same bottlenecks (continuum limit, blow-up condition, relativizing barrier) that later appeared in published solutions. Not the solutions themselves — just where they break.</p>
+        <h4 style="color:#92400e;margin-bottom:12px;">🎯 Applied to Millennium Problems</h4>
+        <p style="color:#78350f;">Tested on Yang-Mills, Navier-Stokes, P vs. NP. Identified bottlenecks (continuum limit, blow-up condition, relativizing barrier) that appeared in later publications. See <a href="https://github.com/markslavinmarkslavin/my-life-os/tree/main/ym_proof_summary.md" style="color:#92400e;">analysis</a>. This is a methodology for finding bottlenecks — not for solving problems directly.</p>
       </div>
       
       <div style="background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-radius:12px;padding:24px;margin-top:32px;border:2px solid #10b981;">

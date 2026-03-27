@@ -14,7 +14,9 @@ A systematic methodology for solving hard problems.
 - ✅ Social proof section
 - ✅ FAQ section
 - ✅ GitHub links (124 Tools, MIT License)
-- ✅ Validated on Millennium Problems
+- ✅ Applied to Millennium Problems
+- ✅ Mobile-responsive design
+- ✅ Conservative claims with sources
 
 ## Quick Start
 
@@ -33,12 +35,18 @@ A systematic methodology for solving hard problems.
 | 5 | CONTINUUM | How does it behave at limits? |
 | 6 | SPECTRAL | What's the bridge to solution? |
 
-## Metrics
+## Metrics (Internally Measured)
 
-- **85%** Self-Speed Improvement (3 years, 50+ cycles)
-- **86%** Benchmark Score
-- **124** Tools optimized in personal Life OS
-- Tested on Millennium Problems (Yang-Mills, Navier-Stokes, P vs NP) — identified same bottlenecks as published solutions (not the solutions themselves)
+- **~85%*** Self-Speed Improvement (3 years, 50+ cycles) — *not independently verified
+- **86%*** Benchmark Score — *measured on own system only
+- **124** Tools in [my-life-os](https://github.com/markslavinmarkslavin/my-life-os)
+- Applied to Millennium Problems (Yang-Mills, Navier-Stokes, P vs NP) — identified bottlenecks, not solutions
+
+## Important Notes
+
+- Metrics are self-measured, not independently verified
+- The method finds bottlenecks — it doesn't solve problems directly
+- Claims about Millennium Problems: identified bottlenecks that later appeared in published work, not the solutions themselves
 
 ## Tools
 
