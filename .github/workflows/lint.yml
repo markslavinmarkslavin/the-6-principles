@@ -1,0 +1,38 @@
+name: Lint & Verify
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Check commit messages
+        run: |
+          echo "Checking for conventional commit format..."
+          # Basic check: commits should have type(scope): format
+          git log origin/master..HEAD --pretty=format:%s | grep -E "^(feat|fix|refactor|docs|test|chore|perf|ci)" || echo "Note: Add conventional commit format for automated changelog"
+
+      - name: Verify .gitignore effectiveness
+        run: |
+          echo "Checking for unwanted files..."
+          # Warn about patterns that should be ignored
+          git ls-files | grep -E "(AppData|node_modules|\.env)" && echo "WARNING: Found files that should be gitignored" || echo "✓ .gitignore rules applied"
+
+      - name: Verify code structure
+        run: |
+          echo "Checking project structure..."
+          test -d src && echo "✓ src/ directory exists" || echo "WARNING: src/ directory missing"
+          test -d docs && echo "✓ docs/ directory exists" || echo "WARNING: docs/ directory missing"
+          test -d tests && echo "✓ tests/ directory exists" || echo "WARNING: tests/ directory missing"
+          test -f .gitignore && echo "✓ .gitignore exists" || echo "ERROR: .gitignore missing"

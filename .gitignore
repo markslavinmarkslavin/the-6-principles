@@ -1,0 +1,307 @@
+# ============================================================================
+# .gitignore — Comprehensive Repository Cleanliness (27.03.2026)
+# Strict rules to ensure only essential project files are tracked
+# ============================================================================
+
+# ============================================================================
+# OS & Platform Files
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================================
+# Windows-Specific
+# ============================================================================
+Anwendungsdaten/
+AppData/
+"Dokumente/"
+"Lokale Einstellungen/"
+"Netzwerkumgebung/"
+"Recent/"
+"SendTo/"
+"Startmenü/"
+"Vorlagen/"
+Druckumgebung/
+Cookies/
+
+# ============================================================================
+# Linux-Specific
+# ============================================================================
+.Xauthority
+.bash_history
+.bash_logout
+.bashrc
+.bash_profile
+.profile
+.viminfo
+.cache/
+.local/
+.config/
+.dbus-keyrings/
+.ssh/
+
+# ============================================================================
+# macOS-Specific
+# ============================================================================
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+
+# ============================================================================
+# IDE & Editor Files
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editor*
+.eslintcache
+.prettier-ignore
+
+# ============================================================================
+# Node.js
+# ============================================================================
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+yarn-debug.log*
+.pnp
+.pnp.js
+dist/
+build/
+.next/
+out/
+coverage/
+.nyc_output/
+.jest-cache/
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================================
+# Ruby/Bundler
+# ============================================================================
+.bundle/
+vendor/bundle/
+Gemfile.lock
+
+# ============================================================================
+# Environment & Secrets (NEVER TRACK)
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+.secrets/
+secrets/
+*.key
+*.pem
+*.ppk
+private_key*
+aws_credentials
+~/.aws/
+
+# ============================================================================
+# Temporary Build & Compilation (Exclude ONLY in root, not in project dirs)
+# ============================================================================
+/*.o
+/*.a
+/*.so
+/*.dylib
+/*.dll
+/*.exe
+/*.out
+/*.app
+/*.deb
+/*.rpm
+.sass-cache/
+.jekyll-cache/
+site/
+
+# ============================================================================
+# Large Binary Files (NOT docs or tracked files)
+# ============================================================================
+# PDF & Office files typically should be excluded, UNLESS they're in version control
+# (Mark may track some docs, so use caution here)
+
+# ============================================================================
+# Project-Specific Excludes: Personal Folders (NOT logs/ or notes/)
+# ============================================================================
+AppData/
+Anwendungsdaten/
+Desktop/
+Documents/
+Downloads/
+Pictures/
+Videos/
+Music/
+OneDrive/
+iCloudDrive/
+Contacts/
+Favorites/
+Links/
+"Saved Games"/
+Searches/
+
+# EXCEPTION: logs/ and notes/ ARE tracked (project documentation)
+!logs/
+!notes/
+
+# ============================================================================
+# Project-Specific Excludes: Archive & Backup
+# ============================================================================
+Archiv/
+Arbeit/
+archive/
+backup/
+*.backup
+*.bak
+*.tmp
+*.swp
+temp/
+temp-*/
+
+# ============================================================================
+# Project-Specific Excludes: System & Automation Tools
+# ============================================================================
+.agent/
+.aider/
+.aider.*.md
+.aider.*.history
+.bun/
+.cache/
+.dolt/
+.electron-gyp/
+.julia/
+.local/
+.matplotlib/
+.ollama/
+.opencode/
+.reminders/
+.trello-cli/
+.vdirsyncer/
+bin/
+ollama_models/
+agent-zero/logs/
+agent-zero/tmp/
+
+# ============================================================================
+# Project-Specific Excludes: Generated Reports & Analysis
+# ============================================================================
+*_report.md
+*_analysis.md
+*_output.*
+*_temp.*
+benchmark_report*.json
+test_report*.json
+coverage_report.html
+performance_report*.txt
+
+# ============================================================================
+# Project-Specific Excludes: Development & Testing
+# ============================================================================
+.pytest_cache/
+test-repo/
+tmpclaude-*/
+*.pyc
+__pycache__/
+
+# ============================================================================
+# Docker
+# ============================================================================
+.docker/
+docker-compose.override.yml
+
+# ============================================================================
+# Sensitive/Personal Data
+# ============================================================================
+*.csv
+*.xlsx
+*contact*
+*credential*
+*password*
+*token*
+NTUSER.DAT*
+ntuser.dat*
+ntuser.ini
+
+# ============================================================================
+# Large Files (Binary, Media)
+# ============================================================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.msi
+*.dmg
+*.iso
+*.img
+node_modules.zip
+vendor.zip
+
+# ============================================================================
+# MacOS & Windows Junk
+# ============================================================================
+.localized
+.com.apple.*
+desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+System Volume Information/
