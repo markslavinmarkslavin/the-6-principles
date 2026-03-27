@@ -1,7 +1,37 @@
 # AGENTS.md - My Life OS
 
-> Version: 2.3 | Last Updated: 2026-03-22
+> Version: 2.4 | Last Updated: 2026-03-24
 > Standard: AGENTS.md (open standard, supported by Cursor, Copilot, Claude Code, etc.)
+
+---
+
+## ПРИНЦИПЫ ПРИНЯТИЯ РЕШЕНИЙ
+
+### 1. Минимальное действие с максимальным охватом
+Перед любым новым инструментом — вопрос: "Есть ли уже что-то что это делает на 80%?"
+```bash
+node tools/omni.js check "semantic search"  # Проверить существующее
+```
+
+### 2. Данные раньше интерпретации
+Никогда не пишу вывод до того как увидел факты.
+- Порядок: Вопрос → инструмент → данные → вывод
+- НЕ: Вопрос → вывод → "давайте проверим"
+
+### 3. Один источник правды
+- [FACT] = подтверждено источником (показывать `Источник: файл:строка`)
+- [SOURCE] = файл содержит информацию
+- [UNVERIFIED] = предположение без источника
+
+### 4. Стоп при неопределённости
+- Если не знаю → пишу [QUESTION]
+- Если данные противоречат → показываю оба варианта
+- Если действие необратимо → [IRREVERSIBLE] + остановка
+
+### 5. Результат проверяется сразу
+- Написал код → запустил
+- Изменил файл → прочитал что получилось
+- Сделал вывод → проверил на реальных данных
 
 ---
 
@@ -57,6 +87,9 @@ cd C:\Users\Admin\my_life_os
 
 # Единый интерфейс
 node tools/omni.js              # Показать все инструменты
+node tools/omni.js check "query" # Проверить существующий функционал перед созданием нового
+node tools/omni.js s            # startup (проверка системы)
+node tools/omni.js now          # ОДНО действие сейчас (Linear-принцип)
 node tools/omni.js q h          # query heute (быстро)
 node tools/omni.js q r          # query ready
 node tools/omni.js g t          # GUB tasks (задачи)
@@ -67,6 +100,7 @@ node tools/omni.js f 3           # focus 3action (3 главных)
 node tools/omni.js l g          # log GUB (заметка GUB)
 node tools/omni.js e d "query"  # evolution decide
 node tools/omni.js research "Milla-Talk"  # Decision Research Loop
+node tools/weekly-synthesis.js  # Анализ недели (Auto-Partner)
 ```
 
 ### 🔬 Decision Research Loop & MCTS Engine
@@ -443,9 +477,26 @@ Based on Scott Tolinski & Wes Bos (Syntax #980 - AI Coding Explained):
 | Failure | Example | Correct |
 |---------|---------|---------|
 | Grep → Fact | "В файле X сказано Y" (grepнул, не читал) | "Прочитал X, там Y" |
-| Filename → Content | Ссылка на `2015/2015-02.md` без Read | Сначала Read, потом факт |
+| Filename → Content | Ссылка на `file.md` ohne Read | Сначала Read, потом факт |
 | Pattern → Meaning | Интерпретация совпадения grep | Только факты из контента |
 | Inference → Fact | "Значит Z" из непроверенного | "[UNVERIFIED] Вероятно Z" |
+
+### 🚨 Datums-Verifikation (Universelle Regel)
+
+**Prinzip:** NEUESTE Quelle IMMER zuerst lesen.
+
+```
+Regel: Bei Datums-/Status-Änderungen → IMMER neueste Log-Datei LESEN
+Regel: User-Input ≠ Facts → Verifizieren bevor akzeptieren
+Regel: "Heute" / "gerade" = kritisch → Zeitachse prüfen
+```
+
+**Universal-Check:**
+```
+1. User sagt Datum/Status → NICHT automatisch übernehmen
+2. Check: logs/{kontext}/2026/2026-MM.md (neueste Einträge)
+3. Falls Widerspruch → NACHFRAGEN statt annehmen
+```
 
 ### 🔧 Implementation
 
@@ -461,6 +512,42 @@ Based on Scott Tolinski & Wes Bos (Syntax #980 - AI Coding Explained):
 
 Интерпретации:
 - [I1] — вывод на основе фактов
+```
+
+---
+
+---
+
+## 🔐 Content Verification Gate (NEW — 27.03.2026)
+
+**Status:** Enforced across all public content
+
+→ **See:** `my_life_os/VERIFICATION_RULES.md` (complete framework)
+
+### Quick Rules
+1. **No claim without source** — Every fact needs `[SOURCE: file:line]`
+2. **Testimonials must be real** — Or use "Early Access" placeholder
+3. **Numbers need origin** — Benchmark, user data, or study
+4. **Placeholders for missing content** — Never invent
+5. **Before publishing:** Run verification audit
+
+### Common Failures (FIXED)
+- ❌ "86% of users love it" (invented) → ✓ "78% benchmark verified"
+- ❌ Fake testimonials → ✓ "Be the first to share"
+- ❌ "Millennia-old problems solved" (vague) → ✓ "Same bottlenecks identified"
+- ❌ No monetization clarity → ✓ Free/paid/consulting separated
+
+### Verification Before Commit
+```bash
+# 1. Check unverified claims
+grep -r "people\|everyone\|proven\|love" . --include="*.html" \
+  | grep -v "source:" | grep -v "verified:"
+
+# 2. Run benchmarks (if claiming performance)
+node tools/evolution/benchmark-full.js
+
+# 3. Validate links + content
+npx htmlhint Desktop/anna-gaw-optimized-site.html
 ```
 
 ---
