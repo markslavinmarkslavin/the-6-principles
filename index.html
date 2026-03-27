@@ -11,18 +11,25 @@
        Readability: Target Flesch-Kincaid Grade 8 (validate at readable.com)
        Next: Collect real testimonials → reposition video to hero → A/B test CTAs -->
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@400;700&display=swap');
+    
     :root {
-      --primary: #2563eb;
-      --secondary: #1e40af;
-      --accent: #f59e0b;
-      --dark: #1e293b;
-      --light: #f8fafc;
+      --bg-deep: #0c0905;
+      --bg-dark: #1a1108;
+      --gold: #c9a84c;
+      --gold-light: #e8d08a;
+      --cream: #f2ead8;
+      --cream-muted: #b8a88a;
+      --burgundy: #4a1520;
+      --border: #3d2e1a;
     }
     
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
-      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg-deep);
+      color: var(--cream);
+      font-family: 'Lato', sans-serif;
       line-height: 1.7;
       color: var(--dark);
       background: var(--light);
@@ -78,12 +85,7 @@
       opacity: 0.95;
     }
     
-    .btn {
-      display: inline-block;
-      background: var(--accent);
-      color: var(--dark);
-      padding: 14px 32px;
-      border-radius: 8px;
+    .btn { border-radius: 9999px;
       font-weight: bold;
       text-decoration: none;
       font-size: 1rem;
@@ -132,7 +134,7 @@
       background: white;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
     
     .principle-card h4 {
@@ -143,7 +145,7 @@
     
     .principle-card p {
       font-size: 0.9rem;
-      color: #64748b;
+      color: var(--cream-muted);
     }
     
     .method {
@@ -164,7 +166,7 @@
     }
     
   .solver-box {
-      background: linear-gradient(135deg, #1e293b, #334155);
+      background: linear-gradient(135deg, var(--bg-deep), #334155);
       border-radius: 16px;
       padding: 32px;
       margin: 32px 0;
@@ -246,12 +248,12 @@
       padding: 20px;
       border-radius: 10px;
       border-left: 4px solid var(--accent);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
     
     .proof-card p {
       font-style: italic;
-      color: #64748b;
+      color: var(--cream-muted);
       font-size: 0.9rem;
     }
     
@@ -276,7 +278,7 @@
     
     .faq p {
       margin-top: 12px;
-      color: #64748b;
+      color: var(--cream-muted);
     }
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -298,7 +300,7 @@
     
     .result-card p {
       font-size: 0.85rem;
-      color: #64748b;
+      color: var(--cream-muted);
     }
     
     .applications {
@@ -349,6 +351,23 @@
       padding: 40px 0;
       font-size: 0.9rem;
     }
+  
+    /* Dark Theme Overrides */
+    body { background: var(--bg-deep); color: var(--cream); }
+    header { background: var(--bg-deep); border-bottom: 1px solid var(--border); }
+    h1, h2, h3 { font-family: 'Cinzel', serif; color: var(--gold); }
+    h4 { color: var(--gold); }
+    .btn { background: var(--gold); color: var(--bg-deep); transition: all 0.3s ease; }
+    .btn:hover { background: var(--gold-light); }
+    .section { background: var(--bg-deep); }
+    .section[style*="background:white"] { background: var(--bg-dark) !important; }
+    .principle-card { background: var(--bg-dark); border-left: 4px solid var(--gold); box-shadow: 12px 12px 30px rgba(0,0,0,0.5); }
+    footer { background: var(--bg-deep); color: var(--cream-muted); }
+    a { color: var(--gold); }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
@@ -358,7 +377,7 @@
       <p class="subtitle">A systematic framework for analyzing complex problems</p>
       <p class="author">Mark Slavin — Teacher, Systems Architect</p>
       <p style="margin-top:16px;font-size:0.9rem;opacity:0.8;">
-        <a href="https://github.com/markslavinmarkslavin/the-6-principles" style="color:#f59e0b;text-decoration:none; font-weight:bold;" target="_blank">★ GitHub (Open Source)</a> ·
+        <a href="https://github.com/markslavinmarkslavin/the-6-principles" style="color:var(--gold);text-decoration:none; font-weight:bold;" target="_blank">★ GitHub (Open Source)</a> ·
         <span style="opacity:0.6;">MIT License</span>
       </p>
     </div>
@@ -372,18 +391,18 @@
     </div>
   </section>
   
-  <section class="section" style="background: linear-gradient(135deg, #1e293b, #334155); padding: 40px 0;">
+  <section class="section" style="background: linear-gradient(135deg, var(--bg-deep), #334155); padding: 40px 0;">
     <div class="container">
       <h3 style="color:white; text-align:center;">What's Blocking You?</h3>
       <p style="color:rgba(255,255,255,0.8); text-align:center; max-width:600px; margin:0 auto 24px;">Name your problem. Get the bottleneck in 30 seconds.</p>
 
       <div style="text-align:center;">
         <input type="text" id="problemInput" placeholder="e.g., Why isn't my business growing?" style="width:100%; max-width:450px; padding:16px 24px; border-radius:10px; border:none; font-size:1rem; margin-bottom:16px;  min-height:48px;">
-        <button onclick="findBottleneck()" style="background:#f59e0b; color:#1e293b; padding:16px 32px; border-radius:10px; font-weight:bold; border:none; cursor:pointer; font-size:1rem; min-height:56px; min-width:160px;">Get My Bottleneck</button>
+        <button onclick="findBottleneck()" style="background:var(--gold); color:var(--bg-deep); padding:16px 32px; border-radius:10px; font-weight:bold; border:none; cursor:pointer; font-size:1rem; min-height:56px; min-width:160px;">Get My Bottleneck</button>
       </div>
       
       <div id="result" style="display:none; margin-top:24px; padding:24px; background:rgba(255,255,255,0.1); border-radius:12px; max-width:600px; margin-left:auto; margin-right:auto;">
-        <h4 style="color:#f59e0b; margin-bottom:12px;">🎯 Your Bottleneck:</h4>
+        <h4 style="color:var(--gold); margin-bottom:12px;"> Your Bottleneck:</h4>
         <p id="bottleneckText" style="color:white; font-size:1.1rem;"></p>
         <p style="color:rgba(255,255,255,0.7); margin-top:16px; font-size:0.9rem;">Now apply the 6 Principles: Find the exact condition that must hold.</p>
       </div>
@@ -463,27 +482,27 @@
       </div>
       
       <div style="background:#f1f5f9;border-radius:12px;padding:24px;margin-top:32px;text-align:center;">
-        <h4 style="color:#1e293b;margin-bottom:16px;">🚀 How to Start</h4>
+        <h4 style="color:var(--bg-deep);margin-bottom:16px;"> How to Start</h4>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;">
           <div style="background:white;padding:16px;border-radius:8px;">
-            <div style="font-size:1.5rem;margin-bottom:8px;">1️⃣</div>
-            <p style="font-weight:bold;color:#1e293b;">Read the Principles</p>
-            <p style="font-size:0.85rem;color:#64748b;">2 min overview above</p>
+            <div style="font-size:1.5rem;margin-bottom:8px;"></div>
+            <p style="font-weight:bold;color:var(--bg-deep);">Read the Principles</p>
+            <p style="font-size:0.85rem;color:var(--cream-muted);">2 min overview above</p>
           </div>
           <div style="background:white;padding:16px;border-radius:8px;">
-            <div style="font-size:1.5rem;margin-bottom:8px;">2️⃣</div>
-            <p style="font-weight:bold;color:#1e293b;">Pick a Problem</p>
-            <p style="font-size:0.85rem;color:#64748b;">From your life or work</p>
+            <div style="font-size:1.5rem;margin-bottom:8px;"></div>
+            <p style="font-weight:bold;color:var(--bg-deep);">Pick a Problem</p>
+            <p style="font-size:0.85rem;color:var(--cream-muted);">From your life or work</p>
           </div>
           <div style="background:white;padding:16px;border-radius:8px;">
-            <div style="font-size:1.5rem;margin-bottom:8px;">3️⃣</div>
-            <p style="font-weight:bold;color:#1e293b;">Find the Bottleneck</p>
-            <p style="font-size:0.85rem;color:#64748b;">Use the interactive tool</p>
+            <div style="font-size:1.5rem;margin-bottom:8px;"></div>
+            <p style="font-weight:bold;color:var(--bg-deep);">Find the Bottleneck</p>
+            <p style="font-size:0.85rem;color:var(--cream-muted);">Use the interactive tool</p>
           </div>
           <div style="background:white;padding:16px;border-radius:8px;">
-            <div style="font-size:1.5rem;margin-bottom:8px;">4️⃣</div>
-            <p style="font-weight:bold;color:#1e293b;">Get Free Analysis</p>
-            <p style="font-size:0.85rem;color:#64748b;">Email for deeper dive</p>
+            <div style="font-size:1.5rem;margin-bottom:8px;"></div>
+            <p style="font-weight:bold;color:var(--bg-deep);">Get Free Analysis</p>
+            <p style="font-size:0.85rem;color:var(--cream-muted);">Email for deeper dive</p>
           </div>
         </div>
       </div>
@@ -532,15 +551,15 @@
         </div>
       </div>
       
-      <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:#64748b;"><em>Based on 3 years of self-optimization. Metrics measured internally, not independently verified.</em></p>
+      <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:var(--cream-muted);"><em>Based on 3 years of self-optimization. Metrics measured internally, not independently verified.</em></p>
       
-      <div style="background:linear-gradient(135deg,#fef3c7,#fef9c3);border-radius:12px;padding:24px;margin-top:32px;border-left:4px solid #f59e0b;">
-        <h4 style="color:#92400e;margin-bottom:12px;">🎯 Applied to Millennium Problems</h4>
+      <div style="background:linear-gradient(135deg,#fef3c7,#fef9c3);border-radius:12px;padding:24px;margin-top:32px;border-left:4px solid var(--gold);">
+        <h4 style="color:#92400e;margin-bottom:12px;"> Applied to Millennium Problems</h4>
         <p style="color:#78350f;"><strong>Retroactive test:</strong> After solutions were published for Yang-Mills, Navier-Stokes, and P vs. NP, the framework was applied to identify the same critical bottlenecks that appeared in published research (continuum limits, blow-up conditions, relativizing barriers). <strong>This proves the framework's ability to identify problem structure — not to solve unsolved problems.</strong></p>
       </div>
       
       <div style="background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-radius:12px;padding:24px;margin-top:32px;border:2px solid #10b981;">
-        <h4 style="color:#065f46;margin-bottom:12px;">📥 Get the Free 6 Principles Cheat Sheet</h4>
+        <h4 style="color:#065f46;margin-bottom:12px;"> Get the Free 6 Principles Cheat Sheet</h4>
         <p style="color:#047857;">A printable one-page guide with all 6 principles, examples, and the bottleneck-finding algorithm. Enter your email to download instantly.</p>
         <div style="margin-top:16px;">
           <input type="email" placeholder="your@email.com" id="emailInput" style="padding:12px 16px;border-radius:6px;border:1px solid #10b981;width:250px;margin-right:8px;">
@@ -575,7 +594,7 @@
     </div>
   </section>
   
-  <section class="section" style="background:#f8fafc;">
+  <section class="section" style="background:var(--bg-dark);">
     <div class="container">
       <h3>Results from Real Consultations</h3>
       <p class="intro">What people discovered in their bottleneck sessions.</p>
@@ -592,7 +611,7 @@
       </div>
 
       <div style="background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-radius:12px;padding:24px;margin-top:32px;border:2px solid #10b981;">
-        <h4 style="color:#065f46;margin-bottom:12px;">📥 Share Your Bottleneck Discovery</h4>
+        <h4 style="color:#065f46;margin-bottom:12px;"> Share Your Bottleneck Discovery</h4>
         <p style="color:#047857;margin-bottom:16px;">Did a consultation shift your perspective? <strong>Share what you discovered</strong> (2-3 sentences) and get featured above. Your feedback shapes the next iteration.</p>
         <div style="margin-top:16px;">
           <input type="email" placeholder="your@email.com" id="testimonialEmail" style="padding:12px 16px;border-radius:6px;border:1px solid #10b981;width:250px;margin-right:8px; min-height:48px;">
@@ -611,27 +630,27 @@
       
       <div class="applications">
         <div class="app">
-          <div class="app-icon">🧬</div>
+          <div class="app-icon"></div>
           <h4>Medicine</h4>
         </div>
         <div class="app">
-          <div class="app-icon">💻</div>
+          <div class="app-icon"></div>
           <h4>Software</h4>
         </div>
         <div class="app">
-          <div class="app-icon">📊</div>
+          <div class="app-icon"></div>
           <h4>Business</h4>
         </div>
         <div class="app">
-          <div class="app-icon">🎯</div>
+          <div class="app-icon"></div>
           <h4>Strategy</h4>
         </div>
         <div class="app">
-          <div class="app-icon">🔬</div>
+          <div class="app-icon"></div>
           <h4>Research</h4>
         </div>
         <div class="app">
-          <div class="app-icon">🤔</div>
+          <div class="app-icon"></div>
           <h4>Decisions</h4>
         </div>
       </div>
@@ -653,7 +672,7 @@
             allowfullscreen>
           </iframe>
         </div>
-        <p style="color:#475569; font-size:0.9rem;">
+        <p style="color:var(--cream-muted); font-size:0.9rem;">
           <strong>Rory Sutherland Explains Bottleneck Theory</strong> — Der Marketing-Experte erklärt, warum das Finden des richtigen Constraints der Schlüssel zu echten Lösungen ist.
         </p>
       </div>
@@ -665,9 +684,9 @@
       <h3>Book Your Bottleneck Session (€49)</h3>
       <p class="intro">1-hour video call: identify exactly what's blocking you.</p>
 
-      <div style="background:white;border-radius:16px;padding:32px;text-align:center;max-width:600px;margin:24px auto;border:2px solid #2563eb;">
-        <p style="font-size:1.1rem;color:#1e293b;margin-bottom:16px;"><strong>What you get:</strong></p>
-        <ul style="text-align:left; color:#475569; margin-bottom:24px; display:inline-block; line-height:2;">
+      <div style="background:white;border-radius:16px;padding:32px;text-align:center;max-width:600px;margin:24px auto;border:2px solid var(--gold);">
+        <p style="font-size:1.1rem;color:var(--bg-deep);margin-bottom:16px;"><strong>What you get:</strong></p>
+        <ul style="text-align:left; color:var(--cream-muted); margin-bottom:24px; display:inline-block; line-height:2;">
           <li>✓ 1-hour structured video call</li>
           <li>✓ Identify your ONE bottleneck</li>
           <li>✓ Written action plan (email next day)</li>
@@ -676,57 +695,57 @@
 
         <!-- CALENDLY EMBED PLACEHOLDER — Replace with your Calendly link -->
         <div style="background:#f9fafc;border-radius:8px;padding:24px;margin-bottom:20px;border:1px solid #e2e8f0;">
-          <p style="color:#475569; font-size:0.95rem; margin-bottom:12px;">
+          <p style="color:var(--cream-muted); font-size:0.95rem; margin-bottom:12px;">
             <strong>Calendar integration coming:</strong> Click below to book directly (no form, no email).
           </p>
           <a href="https://calendly.com/mark-slavin/bottleneck-session"
              target="_blank"
-             style="background:#2563eb;color:white;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block; min-height:56px; line-height:1.5;">
+             style="background:var(--gold);color:white;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block; min-height:56px; line-height:1.5;">
             Check Calendar Availability
           </a>
         </div>
 
-        <p style="margin-bottom:12px;font-size:0.85rem;color:#64748b;">Or email if preferred:</p>
+        <p style="margin-bottom:12px;font-size:0.85rem;color:var(--cream-muted);">Or email if preferred:</p>
         <a href="mailto:mark.a.slavin@gmail.com?subject=Book: €49 Bottleneck Session"
-           style="background:#1e293b;color:white;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block; min-height:48px; line-height:1.5;">
+           style="background:var(--bg-deep);color:white;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block; min-height:48px; line-height:1.5;">
           Email to Book
         </a>
 
-        <p style="margin-top:20px;font-size:0.85rem;color:#64748b;">First 10 slots at €49. No credit card, no waitlist.</p>
+        <p style="margin-top:20px;font-size:0.85rem;color:var(--cream-muted);">First 10 slots at €49. No credit card, no waitlist.</p>
       </div>
     </div>
   </section>
 
   <!-- Objection Handling Section: Addresses top conversion blockers (+30% lift) -->
-  <section class="section" style="background:#f8fafc;">
+  <section class="section" style="background:var(--bg-dark);">
     <div class="container">
       <h3>Common Objections — Answered</h3>
       <p class="intro">These concerns block 30% of conversions. Here's why they don't apply.</p>
 
       <div style="max-width:700px;margin:32px auto;">
-        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid #2563eb;">
-          <h4 style="margin:0 0 12px 0;color:#1e293b;">Is this just for tech/business people?</h4>
-          <p style="margin:0;color:#475569;line-height:1.6;">No. The bottleneck framework applies anywhere: health ("Why can't I lose weight despite gym?"), relationships ("Why do arguments repeat?"), careers ("Why am I stuck despite effort?"). The structure is universal.</p>
+        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid var(--gold);">
+          <h4 style="margin:0 0 12px 0;color:var(--bg-deep);">Is this just for tech/business people?</h4>
+          <p style="margin:0;color:var(--cream-muted);line-height:1.6;">No. The bottleneck framework applies anywhere: health ("Why can't I lose weight despite gym?"), relationships ("Why do arguments repeat?"), careers ("Why am I stuck despite effort?"). The structure is universal.</p>
         </div>
 
-        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid #2563eb;">
-          <h4 style="margin:0 0 12px 0;color:#1e293b;">How is this different from other frameworks?</h4>
-          <p style="margin:0;color:#475569;line-height:1.6;">Most frameworks tell you WHAT to do ("be lean", "optimize", "grow fast"). The 6 Principles tell you WHAT TO FIX FIRST. We identify the ONE constraint blocking everything else—then the solution becomes obvious.</p>
+        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid var(--gold);">
+          <h4 style="margin:0 0 12px 0;color:var(--bg-deep);">How is this different from other frameworks?</h4>
+          <p style="margin:0;color:var(--cream-muted);line-height:1.6;">Most frameworks tell you WHAT to do ("be lean", "optimize", "grow fast"). The 6 Principles tell you WHAT TO FIX FIRST. We identify the ONE constraint blocking everything else—then the solution becomes obvious.</p>
         </div>
 
-        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid #2563eb;">
-          <h4 style="margin:0 0 12px 0;color:#1e293b;">I've tried frameworks before and nothing changed...</h4>
-          <p style="margin:0;color:#475569;line-height:1.6;">That usually means you were fixing the wrong thing. You tried harder at the wrong solution. This framework finds what's ACTUALLY blocking you—based on data, not intuition. Early clients report clarity within 1 hour.</p>
+        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid var(--gold);">
+          <h4 style="margin:0 0 12px 0;color:var(--bg-deep);">I've tried frameworks before and nothing changed...</h4>
+          <p style="margin:0;color:var(--cream-muted);line-height:1.6;">That usually means you were fixing the wrong thing. You tried harder at the wrong solution. This framework finds what's ACTUALLY blocking you—based on data, not intuition. Early clients report clarity within 1 hour.</p>
         </div>
 
-        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid #2563eb;">
-          <h4 style="margin:0 0 12px 0;color:#1e293b;">Can I do this alone or do I need coaching?</h4>
-          <p style="margin:0;color:#475569;line-height:1.6;">Both work. Free self-service (78% accuracy on test problems). Or paid 1-on-1 (€49 first 10, then €97)—faster clarity, more detailed action plan. Choose based on your urgency + budget.</p>
+        <div style="background:white;padding:24px;border-radius:12px;margin-bottom:20px;border-left:4px solid var(--gold);">
+          <h4 style="margin:0 0 12px 0;color:var(--bg-deep);">Can I do this alone or do I need coaching?</h4>
+          <p style="margin:0;color:var(--cream-muted);line-height:1.6;">Both work. Free self-service (78% accuracy on test problems). Or paid 1-on-1 (€49 first 10, then €97)—faster clarity, more detailed action plan. Choose based on your urgency + budget.</p>
         </div>
 
-        <div style="background:white;padding:24px;border-radius:12px;border-left:4px solid #2563eb;">
-          <h4 style="margin:0 0 12px 0;color:#1e293b;">What if my problem is unique and this won't work?</h4>
-          <p style="margin:0;color:#475569;line-height:1.6;">It probably feels unique because you're inside it. But structure is universal: Every problem has constraints. Every solution depends on finding the right one to remove first. The 6 Principles work because they're about HOW you think, not WHAT you're solving.</p>
+        <div style="background:white;padding:24px;border-radius:12px;border-left:4px solid var(--gold);">
+          <h4 style="margin:0 0 12px 0;color:var(--bg-deep);">What if my problem is unique and this won't work?</h4>
+          <p style="margin:0;color:var(--cream-muted);line-height:1.6;">It probably feels unique because you're inside it. But structure is universal: Every problem has constraints. Every solution depends on finding the right one to remove first. The 6 Principles work because they're about HOW you think, not WHAT you're solving.</p>
         </div>
       </div>
     </div>
@@ -738,20 +757,20 @@
       
       <div style="max-width:600px;margin:24px auto 0;">
         <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
-          <summary style="font-weight:bold;color:#1e293b;">Is this free?</summary>
-          <p style="margin-top:12px;color:#64748b;"><strong>Methodology + Tools:</strong> Free (open source).<br><strong>Personal analysis (1 hour):</strong> €97 (or €49 for first 10 clients).</p>
+          <summary style="font-weight:bold;color:var(--bg-deep);">Is this free?</summary>
+          <p style="margin-top:12px;color:var(--cream-muted);"><strong>Methodology + Tools:</strong> Free (open source).<br><strong>Personal analysis (1 hour):</strong> €97 (or €49 for first 10 clients).</p>
         </details>
         <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
-          <summary style="font-weight:bold;color:#1e293b;">How long does it take?</summary>
-          <p style="margin-top:12px;color:#64748b;">Self-service: 5-15 min for bottleneck identification. Full 6 Principles analysis: 1-2 hours for complex problems.</p>
+          <summary style="font-weight:bold;color:var(--bg-deep);">How long does it take?</summary>
+          <p style="margin-top:12px;color:var(--cream-muted);">Self-service: 5-15 min for bottleneck identification. Full 6 Principles analysis: 1-2 hours for complex problems.</p>
         </details>
         <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
-          <summary style="font-weight:bold;color:#1e293b;">Does it work for personal problems?</summary>
-          <p style="margin-top:12px;color:#64748b;">Yes. Career, relationships, health — any problem where you're "trying hard but not making progress" is a bottleneck problem.</p>
+          <summary style="font-weight:bold;color:var(--bg-deep);">Does it work for personal problems?</summary>
+          <p style="margin-top:12px;color:var(--cream-muted);">Yes. Career, relationships, health — any problem where you're "trying hard but not making progress" is a bottleneck problem.</p>
         </details>
         <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
-          <summary style="font-weight:bold;color:#1e293b;">What's the success rate?</summary>
-          <p style="margin-top:12px;color:#64748b;"><strong>Self-service bottleneck identification:</strong> 78% accuracy on known test problems (<code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;">tools/evolution/benchmark-full.js</code>, internal benchmark).<br><strong>Paid consultations:</strong> Measured by client progress on their stated bottleneck. Early feedback suggests 60–70% of clients solve their stated problem within 2 weeks. Real numbers coming as case study data accumulates.</p>
+          <summary style="font-weight:bold;color:var(--bg-deep);">What's the success rate?</summary>
+          <p style="margin-top:12px;color:var(--cream-muted);"><strong>Self-service bottleneck identification:</strong> 78% accuracy on known test problems (<code style="background:#f1f5f9;padding:2px 6px;border-radius:4px;">tools/evolution/benchmark-full.js</code>, internal benchmark).<br><strong>Paid consultations:</strong> Measured by client progress on their stated bottleneck. Early feedback suggests 60–70% of clients solve their stated problem within 2 weeks. Real numbers coming as case study data accumulates.</p>
         </details>
       </div>
     </div>
@@ -762,13 +781,13 @@
       <h3>Ready to Find Your Bottleneck?</h3>
       <p>Use the free interactive solver above, or work 1-on-1 to understand exactly what's blocking you.</p>
       <a href="mailto:mark.a.slavin@gmail.com?subject=Schedule: Bottleneck Consultation" class="btn">Book Your €49 Consultation</a>
-      <p style="margin-top:20px; font-size:0.9rem; color:#64748b;">Or start free with the interactive tool. No sign-up required.</p>
+      <p style="margin-top:20px; font-size:0.9rem; color:var(--cream-muted);">Or start free with the interactive tool. No sign-up required.</p>
     </div>
   </section>
 
-  <section class="section" style="background:#f8fafc;">
+  <section class="section" style="background:var(--bg-dark);">
     <div class="container">
-      <h3>🗺️ Roadmap & Changelog</h3>
+      <h3> Roadmap & Changelog</h3>
       <p class="intro">What's coming and what's already done.</p>
       
       <div style="max-width:700px;margin:32px auto 0;">
@@ -777,7 +796,7 @@
             <h4 style="margin:0;color:#166534;">v1.1 — Current</h4>
             <span style="background:#dcfce7;color:#166534;padding:4px 12px;border-radius:20px;font-size:0.8rem;font-weight:bold;">LIVE NOW</span>
           </div>
-          <ul style="margin:0;padding-left:20px;color:#475569;line-height:1.8;">
+          <ul style="margin:0;padding-left:20px;color:var(--cream-muted);line-height:1.8;">
             <li>Added real bottleneck video (Rory Sutherland)</li>
             <li>Standalone page — no external repo links</li>
             <li>Early Bird Offer (€49 for first 10 clients)</li>
@@ -786,29 +805,29 @@
           </ul>
         </div>
         
-        <div style="background:white;padding:20px;border-radius:12px;margin-bottom:16px;border-left:4px solid #f59e0b;">
+        <div style="background:white;padding:20px;border-radius:12px;margin-bottom:16px;border-left:4px solid var(--gold);">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
             <h4 style="margin:0;color:#92400e;">v1.2 — Next</h4>
             <span style="background:#fef3c7;color:#92400e;padding:4px 12px;border-radius:20px;font-size:0.8rem;font-weight:bold;">IN PROGRESS</span>
           </div>
-          <ul style="margin:0;padding-left:20px;color:#475569;line-height:1.8;">
-            <li>📺 Custom demo video (60-90 sec)</li>
-            <li>📄 PDF Cheat Sheet download</li>
-            <li>📧 Email capture for newsletter</li>
-            <li>📊 Case studies page</li>
+          <ul style="margin:0;padding-left:20px;color:var(--cream-muted);line-height:1.8;">
+            <li> Custom demo video (60-90 sec)</li>
+            <li> PDF Cheat Sheet download</li>
+            <li> Email capture for newsletter</li>
+            <li> Case studies page</li>
           </ul>
         </div>
         
         <div style="background:white;padding:20px;border-radius:12px;margin-bottom:16px;border-left:4px solid #94a3b8;">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-            <h4 style="margin:0;color:#475569;">v2.0 — Future</h4>
-            <span style="background:#f1f5f9;color:#64748b;padding:4px 12px;border-radius:20px;font-size:0.8rem;font-weight:bold;">PLANNED</span>
+            <h4 style="margin:0;color:var(--cream-muted);">v2.0 — Future</h4>
+            <span style="background:#f1f5f9;color:var(--cream-muted);padding:4px 12px;border-radius:20px;font-size:0.8rem;font-weight:bold;">PLANNED</span>
           </div>
-          <ul style="margin:0;padding-left:20px;color:#64748b;line-height:1.8;">
-            <li>🎓 Self-paced course ($49-97)</li>
-            <li>💬 Interactive chat solver</li>
-            <li>📱 Mobile app</li>
-            <li>🏢 Enterprise tier</li>
+          <ul style="margin:0;padding-left:20px;color:var(--cream-muted);line-height:1.8;">
+            <li> Self-paced course ($49-97)</li>
+            <li> Interactive chat solver</li>
+            <li> Mobile app</li>
+            <li> Enterprise tier</li>
           </ul>
         </div>
       </div>
@@ -818,7 +837,7 @@
   <footer>
     <p>© 2026 The 6 Principles | Mark Slavin</p>
     <p style="margin-top:12px;font-size:0.85rem;">
-      <a href="https://github.com/markslavinmarkslavin/the-6-principles" style="color:#f59e0b;text-decoration:none;" target="_blank">⭐ GitHub</a> ·
+      <a href="https://github.com/markslavinmarkslavin/the-6-principles" style="color:var(--gold);text-decoration:none;" target="_blank"> GitHub</a> ·
       <a href="https://github.com/markslavinmarkslavin/the-6-principles/issues" style="color:rgba(255,255,255,0.7);text-decoration:none;" target="_blank">Issues</a> ·
       <span style="opacity:0.6;">MIT License</span>
     </p>
