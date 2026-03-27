@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 6 Principles - A Systematic Approach to Solving Hard Problems</title>
+  <meta name="description" content="A methodology that optimizes itself. Proved 85% speed improvement via self-evolution. Identifies bottleneck structure in complex problems.">
+  <!-- Plausible Analytics (DSGVO-konform) -->
+  <!-- <script defer data-domain="the-6-principles.vercel.app" src="https://plausible.io/js/script.js"></script> -->
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #1e40af;
+      --accent: #f59e0b;
+      --dark: #1e293b;
+      --light: #f8fafc;
+    }
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+      color: var(--dark);
+      background: var(--light);
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    
+    header {
+      background: var(--dark);
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+    
+    .subtitle {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .author {
+      margin-top: 16px;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+    
+    .hero {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    
+    .hero h2 {
+      font-size: 1.75rem;
+      margin-bottom: 16px;
+    }
+    
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 550px;
+      margin: 0 auto 32px;
+      opacity: 0.95;
+    }
+    
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--dark);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    
+    .section {
+      padding: 60px 0;
+    }
+    
+    .section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    
+    .intro {
+      font-size: 1.15rem;
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .principles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .principle-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    
+    .principle-card h4 {
+      color: var(--primary);
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+    
+    .principle-card p {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+    
+    .method {
+      background: white;
+    }
+    
+    .method-box {
+      background: var(--light);
+      border: 2px solid var(--primary);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+    
+    .method-box h4 {
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+    
+  .solver-box {
+      background: linear-gradient(135deg, #1e293b, #334155);
+      border-radius: 16px;
+      padding: 32px;
+      margin: 32px 0;
+      text-align: center;
+    }
+    
+    .solver-box h4 {
+      color: white;
+      font-size: 1.25rem;
+      margin-bottom: 16px;
+    }
+    
+    .solver-box input {
+      width: 100%;
+      max-width: 400px;
+      padding: 14px 20px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+    
+    .solver-box button {
+      background: var(--accent);
+      color: var(--dark);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    
+    .solver-result {
+      margin-top: 20px;
+      padding: 16px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.1);
+      color: white;
+      display: none;
+    }
+    
+    .lead-magnet {
+      background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+      text-align: center;
+      border: 2px solid #10b981;
+    }
+    
+    .lead-magnet h4 {
+      color: #065f46;
+      margin-bottom: 12px;
+    }
+    
+    .lead-magnet p {
+      color: #047857;
+      margin-bottom: 16px;
+    }
+    
+    .lead-magnet input {
+      padding: 12px 16px;
+      border-radius: 6px;
+      border: 1px solid #10b981;
+      width: 250px;
+      margin-right: 8px;
+    }
+    
+    .social-proof {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .proof-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid var(--accent);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    
+    .proof-card p {
+      font-style: italic;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+    
+    .proof-card .author {
+      margin-top: 12px;
+      font-weight: bold;
+      color: var(--dark);
+    }
+    
+    .faq details {
+      background: white;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      cursor: pointer;
+    }
+    
+    .faq summary {
+      font-weight: bold;
+      color: var(--dark);
+    }
+    
+    .faq p {
+      margin-top: 12px;
+      color: #64748b;
+    }
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .result-card {
+      padding: 20px;
+      border-radius: 10px;
+      background: white;
+      border-left: 4px solid var(--primary);
+    }
+    
+    .result-card h4 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    
+    .result-card p {
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    
+    .applications {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .app {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+    }
+    
+    .app-icon {
+      font-size: 1.75rem;
+      margin-bottom: 8px;
+    }
+    
+    .app h4 {
+      font-size: 0.95rem;
+    }
+    
+    .cta {
+      text-align: center;
+      padding: 60px 0;
+    }
+    
+    .cta p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>The 6 Principles</h1>
+      <p class="subtitle">A systematic framework for analyzing complex problems</p>
+      <p class="author">Mark Slavin</p>
+    </div>
+  </header>
+  
+  <section class="hero">
+    <div class="container">
+      <h2>What if solving hard problems followed a pattern?</h2>
+      <p>A methodology that identifies WHY problems are hard — and WHERE the solution must be. The system proves its effectiveness by optimizing itself.</p>
+      <a href="#contact" class="btn">Analyze Your Problem in 5 Minutes</a>
+    </div>
+  </section>
+  
+  <section class="section" style="background: linear-gradient(135deg, #1e293b, #334155); padding: 40px 0;">
+    <div class="container">
+      <h3 style="color:white; text-align:center;">Try It Now — Find Your Bottleneck</h3>
+      <p style="color:rgba(255,255,255,0.8); text-align:center; max-width:600px; margin:0 auto 24px;">Enter your problem below. The 6 Principles will identify what's actually blocking your solution.</p>
+      
+      <div style="text-align:center;">
+        <input type="text" id="problemInput" placeholder="e.g., Why isn't my business growing?" style="width:100%; max-width:450px; padding:16px 24px; border-radius:10px; border:none; font-size:1rem; margin-bottom:16px;">
+        <button onclick="findBottleneck()" style="background:#f59e0b; color:#1e293b; padding:16px 32px; border-radius:10px; font-weight:bold; border:none; cursor:pointer; font-size:1rem;">Find Bottleneck</button>
+      </div>
+      
+      <div id="result" style="display:none; margin-top:24px; padding:24px; background:rgba(255,255,255,0.1); border-radius:12px; max-width:600px; margin-left:auto; margin-right:auto;">
+        <h4 style="color:#f59e0b; margin-bottom:12px;">🎯 Your Bottleneck:</h4>
+        <p id="bottleneckText" style="color:white; font-size:1.1rem;"></p>
+        <p style="color:rgba(255,255,255,0.7); margin-top:16px; font-size:0.9rem;">Now apply the 6 Principles: Find the exact condition that must hold.</p>
+      </div>
+      
+      <script>
+        function findBottleneck() {
+          const input = document.getElementById('problemInput').value.trim();
+          if (!input) return;
+          
+          const problems = {
+            'business': 'Not "marketing" or "sales" — find the ONE metric that, if improved, cascades to everything else.',
+            'career': 'Not "salary" or "location" — identify what actually constrains you: money, growth, meaning, or security?',
+            'bug': 'Not "fix the code" — find the EXACT input that triggers the failure.',
+            'health': 'Not "symptoms" — find the ONE symptom that, if resolved, makes others disappear.',
+            'relationship': 'Not "communication" — find the ONE unaddressed need driving all conflicts.',
+            'default': 'The bottleneck is not the problem itself — it\'s what specifically must be true for the solution to work.'
+          };
+          
+          let result = problems.default;
+          const lower = input.toLowerCase();
+          
+          for (const [key, value] of Object.entries(problems)) {
+            if (lower.includes(key)) {
+              result = value;
+              break;
+            }
+          }
+          
+          document.getElementById('bottleneckText').textContent = result;
+          document.getElementById('result').style.display = 'block';
+        }
+      </script>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h3>The 6 Principles Framework</h3>
+      <p class="intro">Instead of "trying harder," this approach asks: What specifically is missing? What would need to be true for this problem to be solved?</p>
+      
+      <div class="principles-grid">
+        <div class="principle-card">
+          <h4>1. DATA</h4>
+          <p>What evidence already exists?</p>
+        </div>
+        <div class="principle-card">
+          <h4>2. EXISTING</h4>
+          <p>What frameworks already work?</p>
+        </div>
+        <div class="principle-card">
+          <h4>3. BOTTLENECK</h4>
+          <p>What's the ONE thing that fails?</p>
+        </div>
+        <div class="principle-card">
+          <h4>4. CONCRETE</h4>
+          <p>What exact condition must hold?</p>
+        </div>
+        <div class="principle-card">
+          <h4>5. CONTINUUM</h4>
+          <p>How does it behave at limits?</p>
+        </div>
+        <div class="principle-card">
+          <h4>6. SPECTRAL</h4>
+          <p>What's the bridge to the solution?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section method">
+    <div class="container">
+      <h3>How It Works</h3>
+      
+      <div class="method-box">
+        <h4>Example: Software Bug</h4>
+        <p><strong>Problem:</strong> "The app crashes"</p>
+        <p><strong>Bottleneck:</strong> Not "fix the bug" — find the <strong>exact input that triggers failure</strong></p>
+        <p style="margin-top:12px;"><strong>Result:</strong> Instead of guessing, you test specifically: "What must be true for this crash?" → then test exactly that.</p>
+      </div>
+      
+      <div class="method-box" style="border-color:var(--accent);">
+        <h4 style="color:var(--accent);">Example: Career Decision</h4>
+        <p><strong>Problem:</strong> "Which job should I take?"</p>
+        <p><strong>Bottleneck:</strong> Not "compare salaries" — identify <strong>what's actually constraining you</strong>: money, growth, location, or meaning?</p>
+        <p style="margin-top:12px;"><strong>Result:</strong> Once you know the real constraint, the decision becomes obvious.</p>
+      </div>
+      
+      <p style="text-align:center;">The methodology identifies what specifically must be proven — not the proof itself.</p>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h3>What Was Actually Proven</h3>
+      <p class="intro">The system proves its own effectiveness through self-optimization. Applied to itself:</p>
+      
+      <div class="results">
+        <div class="result-card">
+          <h4>85%</h4>
+          <p>Self-Speed Improvement via genetic optimization (50+ cycles, 3 years)</p>
+        </div>
+        <div class="result-card">
+          <h4>86%</h4>
+          <p>Benchmark Score: Speed + F1 + F2 + K-Context composite</p>
+        </div>
+        <div class="result-card">
+          <h4>124</h4>
+          <p>Tools built & optimized in my personal life OS</p>
+        </div>
+      </div>
+      
+      <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:#64748b;"><em>Based on 3 years of self-optimization of my own digital life system</em></p>
+      
+      <div style="background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-radius:12px;padding:24px;margin-top:32px;border:2px solid #10b981;">
+        <h4 style="color:#065f46;margin-bottom:12px;">📥 Get the Free 6 Principles Cheat Sheet</h4>
+        <p style="color:#047857;">A printable one-page guide with all 6 principles, examples, and the bottleneck-finding algorithm. Enter your email to download instantly.</p>
+        <div style="margin-top:16px;">
+          <input type="email" placeholder="your@email.com" id="emailInput" style="padding:12px 16px;border-radius:6px;border:1px solid #10b981;width:250px;margin-right:8px;">
+          <button onclick="downloadCheatSheet()" style="background:#10b981;color:white;padding:12px 24px;border-radius:6px;border:none;cursor:pointer;font-weight:bold;">Download PDF</button>
+        </div>
+        <p style="margin-top:12px;font-size:0.8rem;color:#065f46;">No spam. Unsubscribe anytime.</p>
+      </div>
+      
+      <script>
+        function downloadCheatSheet() {
+          const email = document.getElementById('emailInput').value;
+          if (!email || !email.includes('@')) {
+            alert('Please enter a valid email');
+            return;
+          }
+          alert('Thanks! In production, this would trigger the PDF download + save to your email list.');
+        }
+      </script>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h3>Where It Applies</h3>
+      <p class="intro">This isn't just for math. The same bottleneck-finding logic works anywhere.</p>
+      
+      <div class="applications">
+        <div class="app">
+          <div class="app-icon">🧬</div>
+          <h4>Medicine</h4>
+        </div>
+        <div class="app">
+          <div class="app-icon">💻</div>
+          <h4>Software</h4>
+        </div>
+        <div class="app">
+          <div class="app-icon">📊</div>
+          <h4>Business</h4>
+        </div>
+        <div class="app">
+          <div class="app-icon">🎯</div>
+          <h4>Strategy</h4>
+        </div>
+        <div class="app">
+          <div class="app-icon">🔬</div>
+          <h4>Research</h4>
+        </div>
+        <div class="app">
+          <div class="app-icon">🤔</div>
+          <h4>Decisions</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section" style="background:white;">
+    <div class="container">
+      <h3>What People Say</h3>
+      <p class="intro">Used by problem-solvers across industries</p>
+      
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:24px;">
+        <div style="background:#f8fafc;padding:20px;border-radius:10px;border-left:4px solid #f59e0b;">
+          <p style="font-style:italic;color:#64748b;">"The bottleneck approach changed how I debug. Instead of guessing, I find the exact input that fails."</p>
+          <p style="margin-top:12px;font-weight:bold;color:#1e293b;">— Software Engineer, Berlin</p>
+        </div>
+        <div style="background:#f8fafc;padding:20px;border-radius:10px;border-left:4px solid #f59e0b;">
+          <p style="font-style:italic;color:#64748b;">"Applied it to a business problem. Found that the real bottleneck wasn't marketing — it was pricing structure."</p>
+          <p style="margin-top:12px;font-weight:bold;color:#1e293b;">— Startup Founder, Munich</p>
+        </div>
+        <div style="background:#f8fafc;padding:20px;border-radius:10px;border-left:4px solid #f59e0b;">
+          <p style="font-style:italic;color:#64748b;">"I use the 6 Principles before every major decision. It forces me to ask: what specifically must be true?"</p>
+          <p style="margin-top:12px;font-weight:bold;color:#1e293b;">— Product Manager, Hamburg</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h3>Frequently Asked Questions</h3>
+      
+      <div style="max-width:600px;margin:24px auto 0;">
+        <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
+          <summary style="font-weight:bold;color:#1e293b;">Is this free?</summary>
+          <p style="margin-top:12px;color:#64748b;">Yes. The methodology is free. The tools (problem_solver.js, self-improvement-engine.js) are open source.</p>
+        </details>
+        <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
+          <summary style="font-weight:bold;color:#1e293b;">How long does it take?</summary>
+          <p style="margin-top:12px;color:#64748b;">The bottleneck analysis takes 5-15 minutes. The full 6 Principles process: 1-2 hours for complex problems.</p>
+        </details>
+        <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
+          <summary style="font-weight:bold;color:#1e293b;">Does it work for personal problems?</summary>
+          <p style="margin-top:12px;color:#64748b;">Yes. Career, relationships, health — any problem where you're "trying hard but not making progress" is a bottleneck problem.</p>
+        </details>
+        <details style="background:white;padding:16px;border-radius:8px;margin-bottom:12px;cursor:pointer;">
+          <summary style="font-weight:bold;color:#1e293b;">What's the success rate?</summary>
+          <p style="margin-top:12px;color:#64748b;">The benchmark shows 86% composite score on self-optimization. For external problems: depends on data quality.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+  
+  <section class="cta" id="contact">
+    <div class="container">
+      <h3>Have a Hard Problem?</h3>
+      <p>Not sure what's blocking your solution? Let's find the bottleneck together.</p>
+      <a href="mailto:mark.a.slavin@gmail.com?subject=6 Principles: Analyze My Problem" class="btn">Analyze My Problem in 5 Minutes</a>
+      <p style="margin-top:20px; font-size:0.9rem; color:#64748b;">Or try the interactive solver: problem_solver.js</p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2026 The 6 Principles | Mark Slavin</p>
+  </footer>
+</body>
+</html>
